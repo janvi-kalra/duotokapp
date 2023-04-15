@@ -5,55 +5,42 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import React, { useEffect, useState } from "react";
-import { Video as ExpoVideo, ResizeMode } from "expo-av";
+import React, { useCallback, useEffect, useState } from "react";
 import { globalStyles } from "../styles/global-styles.config";
 import * as ScreenOrientation from "expo-screen-orientation";
-import { Ionicons, Entypo, Foundation } from "@expo/vector-icons";
-import { useNavigation } from "@react-navigation/native";
-import Loader from "../components/loader";
-import { getMinutesSecondsFromMilliseconds } from "../utils/getMinutesSecondsFromMilliseconds";
 import VideoPlayer from "./video-player";
 
 
 const VideoContainer = ({ route }) => {
-  // const [subtitles, setSubtitles] = useState([]);
   const [currentSubtitle, setCurrentSubtitle] = useState('');
-  // const [currentTime, setCurrentTime] = useState(0);
+  const [currentTime, setCurrentTime] = useState(0);
+  const subtitles = require('../assets/subtitles/FriendsVideo.json')
 
-  // const onProgress = (progressData) => {
-  //   setCurrentTime(progressData.currentTime);
-
-  //   if (subtitles && subtitles.length > 0) {
-  //     const currentSubtitleIndex = subtitles.findIndex(
-  //       (subtitle) =>
-  //         currentTime >= subtitle.startTime && currentTime <= subtitle.endTime
-  //     );
-
-  //     if (currentSubtitleIndex >= 0) {
-  //       setCurrentSubtitle(subtitles[currentSubtitleIndex].text);
-  //     } else {
-  //       setCurrentSubtitle('');
-  //     }
-  //   }
-  // };
-
-  React.useEffect(() => {
-    console.log(`current subtitle: ${currentSubtitle}`)
-  }, [currentSubtitle]);
-
+  const calculateCurrentSubtitle = useCallback((videoStatus) => {
+    setCurrentTime(videoStatus?.positionMillis / 1000);
+    const currentSubtitleIndex = subtitles.findIndex(
+      (subtitle) => {
+        if (currentTime >= subtitle.start && currentTime <= subtitle.end) {
+          return subtitle;
+        }
+      }
+    );
+    if (currentSubtitleIndex >= 0) {
+      setCurrentSubtitle(subtitles[currentSubtitleIndex].text);
+    } else {
+      setCurrentSubtitle('');
+    }
+  }, [currentTime]);
 
 
   return (
     <View style={styles.container}> 
-      <VideoPlayer route={route} setCurrentSubtitle={setCurrentSubtitle}/>
+      <VideoPlayer route={route} calculateCurrentSubtitle={calculateCurrentSubtitle}/>
       {currentSubtitle ? (
         <View style={styles.subtitleContainer}>
           <Text style={styles.subtitleText}>{currentSubtitle}</Text>
         </View>
       ) : null}
-
-      {/* <Text onPress={() => console.log(jsonsubs)} style={styles.text}> Text </Text> */}
     </View>
   )
 };
@@ -88,11 +75,13 @@ const styles = StyleSheet.create({
     bottom: 0,
     width: '100%',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    // backgroundColor: globalStyles.colors.orange,
     padding: 10,
+    height: '30%', 
   },
   subtitleText: {
     color: '#fff',
-    fontSize: 18,
+    fontSize: 30,
     textAlign: 'center',
   },
 });

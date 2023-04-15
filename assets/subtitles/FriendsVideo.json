@@ -4,15 +4,15 @@
     "seek": 0,
     "start": 0.0,
     "end": 7.0,
-    "text": " Hey, hey, I wasn't going to tell you anything about this, but Rachel, I think you shouldn't see Tommy anymore.",
+    "text": " Oye, oye, no iba a decirte nada de esto, pero, Rachel, creo que ya no deber\u00edas ver a Tommy.",
     "tokens": [
-      50364, 1911, 11, 4177, 11, 286, 2067, 380, 516, 281, 980, 291, 1340, 466,
-      341, 11, 457, 14246, 11, 286, 519, 291, 4659, 380, 536, 19448, 3602, 13,
-      50714
+      50364, 422, 1200, 11, 277, 1200, 11, 572, 33423, 257, 10235, 975, 8096,
+      368, 7433, 11, 4768, 11, 14246, 11, 14336, 631, 2478, 572, 29671, 10025,
+      1306, 257, 19448, 13, 50714
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.3272166738704759,
-    "compression_ratio": 1.663265306122449,
+    "avg_logprob": -0.20110204578500934,
+    "compression_ratio": 1.5594059405940595,
     "no_speech_prob": 0.3949246108531952
   },
   {
@@ -20,11 +20,11 @@
     "seek": 0,
     "start": 9.0,
     "end": 10.0,
-    "text": " Not anymore?",
-    "tokens": [50814, 1726, 3602, 30, 50864],
+    "text": " Ya no?",
+    "tokens": [50814, 6080, 572, 30, 50864],
     "temperature": 0.0,
-    "avg_logprob": -0.3272166738704759,
-    "compression_ratio": 1.663265306122449,
+    "avg_logprob": -0.20110204578500934,
+    "compression_ratio": 1.5594059405940595,
     "no_speech_prob": 0.3949246108531952
   },
   {
@@ -32,14 +32,15 @@
     "seek": 0,
     "start": 10.0,
     "end": 15.0,
-    "text": " No, the man is bad, really, really bad, I think you should get rid of that man.",
+    "text": " No, el hombre es malo, de verdad, en serio, malo, creo que debes apartarte de ese hombre.",
     "tokens": [
-      50864, 883, 11, 264, 587, 307, 1578, 11, 534, 11, 534, 1578, 11, 286, 519,
-      291, 820, 483, 3973, 295, 300, 587, 13, 51114
+      50864, 883, 11, 806, 26102, 785, 2806, 78, 11, 368, 13692, 11, 465, 49531,
+      11, 2806, 78, 11, 14336, 631, 3001, 279, 4936, 11026, 368, 10167, 26102,
+      13, 51114
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.3272166738704759,
-    "compression_ratio": 1.663265306122449,
+    "avg_logprob": -0.20110204578500934,
+    "compression_ratio": 1.5594059405940595,
     "no_speech_prob": 0.3949246108531952
   },
   {
@@ -47,13 +48,14 @@
     "seek": 0,
     "start": 16.0,
     "end": 20.0,
-    "text": " Or maybe I should get away from all the men.",
+    "text": " Oh, tal vez, debo alejarme de todos los hombres.",
     "tokens": [
-      51164, 1610, 1310, 286, 820, 483, 1314, 490, 439, 264, 1706, 13, 51364
+      51164, 876, 11, 4023, 5715, 11, 368, 1763, 6775, 10150, 1398, 368, 6321,
+      1750, 37988, 13, 51364
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.3272166738704759,
-    "compression_ratio": 1.663265306122449,
+    "avg_logprob": -0.20110204578500934,
+    "compression_ratio": 1.5594059405940595,
     "no_speech_prob": 0.3949246108531952
   },
   {
@@ -61,11 +63,11 @@
     "seek": 0,
     "start": 20.0,
     "end": 22.0,
-    "text": " No, this is not because of jealousy.",
-    "tokens": [51364, 883, 11, 341, 307, 406, 570, 295, 36103, 13, 51464],
+    "text": " No, esto no es por celos.",
+    "tokens": [51364, 883, 11, 7433, 572, 785, 1515, 9277, 329, 13, 51464],
     "temperature": 0.0,
-    "avg_logprob": -0.3272166738704759,
-    "compression_ratio": 1.663265306122449,
+    "avg_logprob": -0.20110204578500934,
+    "compression_ratio": 1.5594059405940595,
     "no_speech_prob": 0.3949246108531952
   },
   {
@@ -73,13 +75,14 @@
     "seek": 0,
     "start": 23.0,
     "end": 26.0,
-    "text": " I think no, I don't feel jealous, right?",
+    "text": " Yo pienso que no, no siento celos, correcto, es...",
     "tokens": [
-      51514, 286, 519, 572, 11, 286, 500, 380, 841, 13805, 11, 558, 30, 51664
+      51514, 7616, 26274, 539, 631, 572, 11, 572, 40340, 9277, 329, 11, 3006,
+      78, 11, 785, 485, 51664
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.3272166738704759,
-    "compression_ratio": 1.663265306122449,
+    "avg_logprob": -0.20110204578500934,
+    "compression_ratio": 1.5594059405940595,
     "no_speech_prob": 0.3949246108531952
   },
   {
@@ -87,821 +90,914 @@
     "seek": 2600,
     "start": 26.0,
     "end": 31.0,
-    "text": " Hey, the man screamed at him, he really screamed at a couple, just because they were in these places.",
+    "text": " Oye, el se\u00f1or le grit\u00f3, le grit\u00f3, de verdad, a una pareja, solo porque se sent\u00f3 en nuestros lugares.",
     "tokens": [
-      50364, 1911, 11, 264, 587, 41069, 412, 796, 11, 415, 534, 41069, 412, 257,
-      1916, 11, 445, 570, 436, 645, 294, 613, 3190, 13, 50614
+      50364, 422, 1200, 11, 806, 22188, 476, 30133, 812, 11, 476, 30133, 812,
+      11, 368, 13692, 11, 257, 2002, 7448, 2938, 11, 6944, 4021, 369, 2279, 812,
+      465, 24099, 33105, 13, 50614
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.37622505377146825,
-    "compression_ratio": 1.5648535564853556,
-    "no_speech_prob": 0.03476249426603317
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 7,
     "seek": 2600,
     "start": 31.0,
     "end": 39.0,
-    "text": " Yes, and at the end of the work, he got up and started hitting his hands like this.",
+    "text": " S\u00ed, y al final de la obra, \u00e9l se levant\u00f3 y comenz\u00f3 a golpearse las manos as\u00ed.",
     "tokens": [
-      50614, 1079, 11, 293, 412, 264, 917, 295, 264, 589, 11, 415, 658, 493,
-      293, 1409, 8850, 702, 2377, 411, 341, 13, 51014
+      50614, 12375, 11, 288, 419, 2572, 368, 635, 22798, 11, 11810, 369, 30612,
+      812, 288, 29564, 812, 257, 42032, 11668, 2439, 36650, 8582, 13, 51014
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.37622505377146825,
-    "compression_ratio": 1.5648535564853556,
-    "no_speech_prob": 0.03476249426603317
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 8,
     "seek": 2600,
     "start": 41.0,
     "end": 44.0,
-    "text": " Fine, fine, fine, if you don't want to believe me, I get it, it's fine.",
+    "text": " De juego bien, bien, si no quieren creerme, lo entiendo, est\u00e1 bien.",
     "tokens": [
-      51114, 12024, 11, 2489, 11, 2489, 11, 498, 291, 500, 380, 528, 281, 1697,
-      385, 11, 286, 483, 309, 11, 309, 311, 2489, 13, 51264
+      51114, 1346, 21344, 3610, 11, 3610, 11, 1511, 572, 36706, 1197, 31081, 11,
+      450, 948, 7304, 11, 3192, 3610, 13, 51264
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.37622505377146825,
-    "compression_ratio": 1.5648535564853556,
-    "no_speech_prob": 0.03476249426603317
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 9,
     "seek": 2600,
     "start": 44.0,
     "end": 45.0,
-    "text": " It's a joke.",
-    "tokens": [51264, 467, 311, 257, 7647, 13, 51314],
+    "text": " \u00a1Ross!",
+    "tokens": [51264, 6514, 49, 772, 0, 51314],
     "temperature": 0.0,
-    "avg_logprob": -0.37622505377146825,
-    "compression_ratio": 1.5648535564853556,
-    "no_speech_prob": 0.03476249426603317
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 10,
     "seek": 2600,
     "start": 45.0,
     "end": 46.0,
-    "text": " Rose, Rose.",
-    "tokens": [51314, 12765, 11, 12765, 13, 51364],
+    "text": " \u00a1Es un chiste!",
+    "tokens": [51314, 6514, 20442, 517, 417, 8375, 0, 51364],
     "temperature": 0.0,
-    "avg_logprob": -0.37622505377146825,
-    "compression_ratio": 1.5648535564853556,
-    "no_speech_prob": 0.03476249426603317
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 11,
     "seek": 2600,
-    "start": 48.0,
-    "end": 50.0,
-    "text": " Nobody believes me, I'm a liar, right?",
-    "tokens": [
-      51464, 9297, 12307, 385, 11, 286, 478, 257, 27323, 11, 558, 30, 51564
-    ],
+    "start": 46.0,
+    "end": 47.0,
+    "text": " \u00a1Ross!",
+    "tokens": [51364, 6514, 49, 772, 0, 51414],
     "temperature": 0.0,
-    "avg_logprob": -0.37622505377146825,
-    "compression_ratio": 1.5648535564853556,
-    "no_speech_prob": 0.03476249426603317
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 12,
     "seek": 2600,
-    "start": 50.0,
+    "start": 48.0,
     "end": 51.0,
-    "text": " A liar.",
-    "tokens": [51564, 316, 27323, 13, 51614],
+    "text": " Nadie me cree eso de un mentiroso, \u00bfno? Un mentiroso.",
+    "tokens": [
+      51464, 23269, 414, 385, 48895, 7287, 368, 517, 3074, 347, 9869, 11, 3841,
+      1771, 30, 1156, 3074, 347, 9869, 13, 51614
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.37622505377146825,
-    "compression_ratio": 1.5648535564853556,
-    "no_speech_prob": 0.03476249426603317
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 13,
     "seek": 2600,
-    "start": 52.0,
-    "end": 53.0,
-    "text": " I'm sorry Tommy.",
-    "tokens": [51664, 286, 478, 2597, 19448, 13, 51714],
+    "start": 51.0,
+    "end": 52.0,
+    "text": " \u00a1Eh!",
+    "tokens": [51614, 6514, 42810, 0, 51664],
     "temperature": 0.0,
-    "avg_logprob": -0.37622505377146825,
-    "compression_ratio": 1.5648535564853556,
-    "no_speech_prob": 0.03476249426603317
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 14,
     "seek": 2600,
-    "start": 53.0,
-    "end": 55.0,
-    "text": " Tell me what you're taking.",
-    "tokens": [51714, 5115, 385, 437, 291, 434, 1940, 13, 51814],
+    "start": 52.0,
+    "end": 53.0,
+    "text": " Lo siento Tommy.",
+    "tokens": [51664, 6130, 40340, 19448, 13, 51714],
     "temperature": 0.0,
-    "avg_logprob": -0.37622505377146825,
-    "compression_ratio": 1.5648535564853556,
-    "no_speech_prob": 0.03476249426603317
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 15,
-    "seek": 5600,
-    "start": 56.0,
-    "end": 58.0,
-    "text": " What, what is what you're taking?",
-    "tokens": [50364, 708, 11, 437, 307, 437, 291, 434, 1940, 30, 50464],
+    "seek": 2600,
+    "start": 53.0,
+    "end": 55.0,
+    "text": " \u00a1Dime qu\u00e9 es lo que llevas!",
+    "tokens": [
+      51714, 6514, 35, 1312, 8057, 785, 450, 631, 12038, 7967, 0, 51814
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.19423618183269367,
+    "compression_ratio": 1.4887218045112782,
+    "no_speech_prob": 0.06307775527238846
   },
   {
     "id": 16,
     "seek": 5600,
-    "start": 59.0,
-    "end": 60.0,
-    "text": " It's coffee.",
-    "tokens": [50514, 467, 311, 4982, 13, 50564],
+    "start": 56.0,
+    "end": 58.0,
+    "text": " \u00bfQu\u00e9? \u00bfQu\u00e9 es lo que llevas?",
+    "tokens": [
+      50364, 3841, 15137, 30, 3841, 15137, 785, 450, 631, 12038, 7967, 30, 50464
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.1548387166616079,
+    "compression_ratio": 1.5604395604395604,
+    "no_speech_prob": 0.004619063343852758
   },
   {
     "id": 17,
     "seek": 5600,
-    "start": 60.0,
-    "end": 62.0,
-    "text": " Cold coffee, tell me what's cold coffee.",
-    "tokens": [
-      50564, 16918, 4982, 11, 980, 385, 437, 311, 3554, 4982, 13, 50664
-    ],
+    "start": 59.0,
+    "end": 60.0,
+    "text": " Es caf\u00e9.",
+    "tokens": [50514, 2313, 25118, 13, 50564],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.1548387166616079,
+    "compression_ratio": 1.5604395604395604,
+    "no_speech_prob": 0.004619063343852758
   },
   {
     "id": 18,
     "seek": 5600,
-    "start": 64.0,
-    "end": 65.0,
-    "text": " It's hot.",
-    "tokens": [50764, 467, 311, 2368, 13, 50814],
+    "start": 60.0,
+    "end": 62.0,
+    "text": " Caf\u00e9 helado, dime qu\u00e9 es caf\u00e9 helado.",
+    "tokens": [
+      50564, 46701, 526, 801, 1573, 11, 36330, 8057, 785, 25118, 801, 1573, 13,
+      50664
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.1548387166616079,
+    "compression_ratio": 1.5604395604395604,
+    "no_speech_prob": 0.004619063343852758
   },
   {
     "id": 19,
     "seek": 5600,
-    "start": 65.0,
-    "end": 66.0,
-    "text": " I knew it, it's hot!",
-    "tokens": [50814, 286, 2586, 309, 11, 309, 311, 2368, 0, 50864],
+    "start": 64.0,
+    "end": 65.0,
+    "text": " Es caliente.",
+    "tokens": [50764, 2313, 2104, 8413, 13, 50814],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.1548387166616079,
+    "compression_ratio": 1.5604395604395604,
+    "no_speech_prob": 0.004619063343852758
   },
   {
     "id": 20,
     "seek": 5600,
-    "start": 67.0,
-    "end": 68.0,
-    "text": " Idiot!",
-    "tokens": [50914, 40187, 310, 0, 50964],
+    "start": 65.0,
+    "end": 66.0,
+    "text": " \u00a1Caliente lo sab\u00eda!",
+    "tokens": [50814, 6514, 34, 5103, 1576, 450, 5560, 2686, 0, 50864],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.1548387166616079,
+    "compression_ratio": 1.5604395604395604,
+    "no_speech_prob": 0.004619063343852758
   },
   {
     "id": 21,
     "seek": 5600,
-    "start": 68.0,
-    "end": 70.0,
-    "text": " You spilled hot coffee on me!",
-    "tokens": [50964, 509, 37833, 2368, 4982, 322, 385, 0, 51064],
+    "start": 67.0,
+    "end": 68.0,
+    "text": " \u00a1Idiota!",
+    "tokens": [50914, 6514, 40, 4504, 5377, 0, 50964],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.1548387166616079,
+    "compression_ratio": 1.5604395604395604,
+    "no_speech_prob": 0.004619063343852758
   },
   {
     "id": 22,
     "seek": 5600,
-    "start": 71.0,
-    "end": 74.0,
-    "text": " You're a stupid, stupid, stupid idiot!",
-    "tokens": [51114, 509, 434, 257, 6631, 11, 6631, 11, 6631, 14270, 0, 51264],
+    "start": 68.0,
+    "end": 70.0,
+    "text": " \u00a1De ramaste caf\u00e9 caliente sobre m\u00ed!",
+    "tokens": [
+      50964, 6514, 11089, 10211, 9079, 25118, 2104, 8413, 5473, 14692, 0, 51064
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.1548387166616079,
+    "compression_ratio": 1.5604395604395604,
+    "no_speech_prob": 0.004619063343852758
   },
   {
     "id": 23,
     "seek": 5600,
-    "start": 74.0,
+    "start": 71.0,
     "end": 75.0,
-    "text": " You're an idiot, you hear?",
-    "tokens": [51264, 509, 434, 364, 14270, 11, 291, 1568, 30, 51314],
+    "text": " \u00a1Eres un pobre torpe est\u00fapido, pobre idiota, peinado de idiota, o\u00edste!",
+    "tokens": [
+      51114, 6514, 36, 495, 517, 40819, 3930, 494, 871, 44492, 2925, 11, 40819,
+      18014, 5377, 11, 520, 259, 1573, 368, 18014, 5377, 11, 277, 870, 2941, 0,
+      51314
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.1548387166616079,
+    "compression_ratio": 1.5604395604395604,
+    "no_speech_prob": 0.004619063343852758
   },
   {
     "id": 24,
     "seek": 5600,
     "start": 80.0,
     "end": 82.0,
-    "text": " What do you like the most about summer?",
-    "tokens": [51564, 708, 360, 291, 411, 264, 881, 466, 4266, 30, 51664],
+    "text": " \u00bfQu\u00e9 es lo que m\u00e1s te gusta del verano?",
+    "tokens": [
+      51564, 3841, 15137, 785, 450, 631, 3573, 535, 20576, 1103, 1306, 3730, 30,
+      51664
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.38130654679968,
-    "compression_ratio": 1.63125,
-    "no_speech_prob": 0.004170531406998634
+    "avg_logprob": -0.1548387166616079,
+    "compression_ratio": 1.5604395604395604,
+    "no_speech_prob": 0.004619063343852758
   },
   {
     "id": 25,
     "seek": 8200,
     "start": 82.0,
     "end": 86.0,
-    "text": " Look at the beach, it's so dark in the afternoon.",
+    "text": " Mira la playa, que oscurece tarde esos d\u00edas.",
     "tokens": [
-      50364, 2053, 412, 264, 7534, 11, 309, 311, 370, 2877, 294, 264, 6499, 13,
-      50564
+      50364, 28394, 635, 862, 64, 11, 631, 3003, 66, 540, 384, 27367, 22411,
+      19527, 13, 50564
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 26,
     "seek": 8200,
     "start": 86.0,
     "end": 87.0,
-    "text": " Yeah.",
-    "tokens": [50564, 865, 13, 50614],
+    "text": " S\u00ed.",
+    "tokens": [50564, 12375, 13, 50614],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 27,
     "seek": 8200,
     "start": 88.0,
     "end": 89.0,
-    "text": " Hi.",
-    "tokens": [50664, 2421, 13, 50714],
+    "text": " \u00a1Hola!",
+    "tokens": [50664, 6514, 48529, 0, 50714],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 28,
     "seek": 8200,
     "start": 90.0,
     "end": 91.0,
-    "text": " Tommy!",
-    "tokens": [50764, 19448, 0, 50814],
+    "text": " \u00a1Tommy!",
+    "tokens": [50764, 6514, 51, 10165, 0, 50814],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 29,
     "seek": 8200,
     "start": 91.0,
     "end": 93.0,
-    "text": " Hey, what do you like the most about summer?",
+    "text": " Oye, \u00bfqu\u00e9 es lo que m\u00e1s te gusta del verano?",
     "tokens": [
-      50814, 1911, 11, 437, 360, 291, 411, 264, 881, 466, 4266, 30, 50914
+      50814, 422, 1200, 11, 3841, 16412, 785, 450, 631, 3573, 535, 20576, 1103,
+      1306, 3730, 30, 50914
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 30,
     "seek": 8200,
     "start": 94.0,
     "end": 98.0,
-    "text": " I don't know, maybe the fresh aroma of the flowers.",
+    "text": " No lo s\u00e9, pues tal vez el aroma fresco de las flores.",
     "tokens": [
-      50964, 286, 500, 380, 458, 11, 1310, 264, 4451, 28687, 295, 264, 8085, 13,
-      51164
+      50964, 883, 450, 7910, 11, 11059, 4023, 5715, 806, 28687, 25235, 1291,
+      368, 2439, 932, 2706, 13, 51164
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 31,
     "seek": 8200,
     "start": 98.0,
     "end": 99.0,
-    "text": " Oh, that's nice.",
-    "tokens": [51164, 876, 11, 300, 311, 1481, 13, 51214],
+    "text": " Ah, eso es lindo.",
+    "tokens": [51164, 2438, 11, 7287, 785, 48436, 13, 51214],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 32,
     "seek": 8200,
     "start": 100.0,
     "end": 101.0,
-    "text": " Yeah.",
-    "tokens": [51264, 865, 13, 51314],
+    "text": " S\u00ed.",
+    "tokens": [51264, 12375, 13, 51314],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 33,
     "seek": 8200,
     "start": 101.0,
     "end": 103.0,
-    "text": " But it's a wild one, I don't get it.",
+    "text": " Pero es un salvaje, no lo entiendes.",
     "tokens": [
-      51314, 583, 309, 311, 257, 4868, 472, 11, 286, 500, 380, 483, 309, 13,
+      51314, 9377, 785, 517, 26858, 11153, 11, 572, 450, 948, 1174, 279, 13,
       51414
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 34,
     "seek": 8200,
     "start": 106.0,
     "end": 110.0,
-    "text": " I'm sorry Tommy, I rarely drink hot coffee in you.",
+    "text": " Lo siento Tommy, yo por poco derramo el caf\u00e9 caliente en ti.",
     "tokens": [
-      51564, 286, 478, 2597, 19448, 11, 286, 13752, 2822, 2368, 4982, 294, 291,
-      13, 51764
+      51564, 6130, 40340, 19448, 11, 5290, 1515, 10639, 1163, 2356, 78, 806,
+      25118, 2104, 8413, 465, 8757, 13, 51764
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.31697165363966817,
-    "compression_ratio": 1.4421052631578948,
-    "no_speech_prob": 0.0042349798604846
+    "avg_logprob": -0.1603115723196384,
+    "compression_ratio": 1.3644859813084111,
+    "no_speech_prob": 0.00518779456615448
   },
   {
     "id": 35,
     "seek": 11000,
     "start": 110.0,
     "end": 113.0,
-    "text": " Yeah, it's nice that you're not like that.",
+    "text": " S\u00ed, y qu\u00e9 gusto que no haya sido as\u00ed.",
     "tokens": [
-      50364, 865, 11, 309, 311, 1481, 300, 291, 434, 406, 411, 300, 13, 50514
+      50364, 12375, 11, 288, 8057, 38723, 631, 572, 24693, 14444, 8582, 13,
+      50514
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.42919905642245676,
-    "compression_ratio": 1.4756756756756757,
-    "no_speech_prob": 0.0009405040182173252
+    "avg_logprob": -0.1800701055633888,
+    "compression_ratio": 1.3461538461538463,
+    "no_speech_prob": 0.0012297268258407712
   },
   {
     "id": 36,
     "seek": 11000,
     "start": 113.0,
-    "end": 114.0,
-    "text": " No, but...",
-    "tokens": [50514, 883, 11, 457, 485, 50564],
+    "end": 116.0,
+    "text": " No, pero est\u00e1 caliente.",
+    "tokens": [50514, 883, 11, 4768, 3192, 2104, 8413, 13, 50664],
     "temperature": 0.0,
-    "avg_logprob": -0.42919905642245676,
-    "compression_ratio": 1.4756756756756757,
-    "no_speech_prob": 0.0009405040182173252
+    "avg_logprob": -0.1800701055633888,
+    "compression_ratio": 1.3461538461538463,
+    "no_speech_prob": 0.0012297268258407712
   },
   {
     "id": 37,
     "seek": 11000,
-    "start": 114.0,
-    "end": 116.0,
-    "text": " It's hot.",
-    "tokens": [50564, 467, 311, 2368, 13, 50664],
+    "start": 120.0,
+    "end": 122.0,
+    "text": " Ros, por Dios, ya pasta, no tienes hartos.",
+    "tokens": [
+      50864, 11144, 11, 1515, 21838, 11, 2478, 13296, 11, 572, 20716, 36644,
+      329, 13, 50964
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.42919905642245676,
-    "compression_ratio": 1.4756756756756757,
-    "no_speech_prob": 0.0009405040182173252
+    "avg_logprob": -0.1800701055633888,
+    "compression_ratio": 1.3461538461538463,
+    "no_speech_prob": 0.0012297268258407712
   },
   {
     "id": 38,
     "seek": 11000,
-    "start": 120.0,
-    "end": 122.0,
-    "text": " Rose, for God's sake, stop it, you're not sick.",
+    "start": 122.0,
+    "end": 125.0,
+    "text": " No es posible que nadie me crea, amigos.",
     "tokens": [
-      50864, 12765, 11, 337, 1265, 311, 9717, 11, 1590, 309, 11, 291, 434, 406,
-      4998, 13, 50964
+      50964, 883, 785, 26644, 631, 28060, 385, 1197, 64, 11, 18243, 13, 51114
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.42919905642245676,
-    "compression_ratio": 1.4756756756756757,
-    "no_speech_prob": 0.0009405040182173252
+    "avg_logprob": -0.1800701055633888,
+    "compression_ratio": 1.3461538461538463,
+    "no_speech_prob": 0.0012297268258407712
   },
   {
     "id": 39,
     "seek": 11000,
-    "start": 122.0,
-    "end": 125.0,
-    "text": " It's not possible that nobody believes me, friends.",
-    "tokens": [
-      50964, 467, 311, 406, 1944, 300, 5079, 12307, 385, 11, 1855, 13, 51114
-    ],
+    "start": 125.0,
+    "end": 126.0,
+    "text": " Yo s\u00ed, \u00bfde veras?",
+    "tokens": [51114, 7616, 8600, 11, 3841, 1479, 1306, 296, 30, 51164],
     "temperature": 0.0,
-    "avg_logprob": -0.42919905642245676,
-    "compression_ratio": 1.4756756756756757,
-    "no_speech_prob": 0.0009405040182173252
+    "avg_logprob": -0.1800701055633888,
+    "compression_ratio": 1.3461538461538463,
+    "no_speech_prob": 0.0012297268258407712
   },
   {
     "id": 40,
     "seek": 11000,
-    "start": 125.0,
-    "end": 126.0,
-    "text": " Oh yeah, really?",
-    "tokens": [51114, 876, 1338, 11, 534, 30, 51164],
+    "start": 127.0,
+    "end": 128.0,
+    "text": " \u00bfT\u00fa s\u00ed, Phoebe?",
+    "tokens": [51214, 3841, 51, 2481, 8600, 11, 14936, 48593, 30, 51264],
     "temperature": 0.0,
-    "avg_logprob": -0.42919905642245676,
-    "compression_ratio": 1.4756756756756757,
-    "no_speech_prob": 0.0009405040182173252
+    "avg_logprob": -0.1800701055633888,
+    "compression_ratio": 1.3461538461538463,
+    "no_speech_prob": 0.0012297268258407712
   },
   {
     "id": 41,
     "seek": 11000,
-    "start": 127.0,
-    "end": 128.0,
-    "text": " You're right, Phoebe.",
-    "tokens": [51214, 509, 434, 558, 11, 14936, 48593, 13, 51264],
+    "start": 128.0,
+    "end": 131.0,
+    "text": " S\u00ed, pero tambi\u00e9n le cre\u00ed cuando dijo que segu\u00eda, yo.",
+    "tokens": [
+      51264, 12375, 11, 4768, 6407, 476, 1197, 870, 7767, 27024, 631, 8878,
+      2686, 11, 5290, 13, 51414
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.42919905642245676,
-    "compression_ratio": 1.4756756756756757,
-    "no_speech_prob": 0.0009405040182173252
+    "avg_logprob": -0.1800701055633888,
+    "compression_ratio": 1.3461538461538463,
+    "no_speech_prob": 0.0012297268258407712
   },
   {
     "id": 42,
-    "seek": 11000,
-    "start": 128.0,
-    "end": 131.0,
-    "text": " Yeah, but I also believed her when she said she was following me.",
-    "tokens": [
-      51264, 865, 11, 457, 286, 611, 7847, 720, 562, 750, 848, 750, 390, 3480,
-      385, 13, 51414
-    ],
+    "seek": 13100,
+    "start": 132.0,
+    "end": 133.0,
+    "text": " Oye.",
+    "tokens": [50414, 422, 1200, 13, 50464],
     "temperature": 0.0,
-    "avg_logprob": -0.42919905642245676,
-    "compression_ratio": 1.4756756756756757,
-    "no_speech_prob": 0.0009405040182173252
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 43,
-    "seek": 11000,
-    "start": 138.0,
-    "end": 139.0,
-    "text": " Hey.",
-    "tokens": [51764, 1911, 13, 51814],
+    "seek": 13100,
+    "start": 134.0,
+    "end": 135.0,
+    "text": " Hola, amiguito.",
+    "tokens": [50514, 22637, 11, 669, 328, 22703, 13, 50564],
     "temperature": 0.0,
-    "avg_logprob": -0.42919905642245676,
-    "compression_ratio": 1.4756756756756757,
-    "no_speech_prob": 0.0009405040182173252
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 44,
-    "seek": 14000,
-    "start": 140.0,
-    "end": 141.0,
-    "text": " Hi, little friend.",
-    "tokens": [50364, 2421, 11, 707, 1277, 13, 50414],
+    "seek": 13100,
+    "start": 136.0,
+    "end": 137.0,
+    "text": " Plumaboladora, \u00bfc\u00f3mo est\u00e1s?",
+    "tokens": [
+      50614, 2149, 449, 455, 401, 23020, 11, 3841, 46614, 24389, 30, 50664
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.4624551065852133,
-    "compression_ratio": 1.467455621301775,
-    "no_speech_prob": 0.002512054517865181
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 45,
-    "seek": 14000,
-    "start": 141.0,
-    "end": 143.0,
-    "text": " I love you so much, how are you?",
-    "tokens": [50414, 286, 959, 291, 370, 709, 11, 577, 366, 291, 30, 50514],
+    "seek": 13100,
+    "start": 139.0,
+    "end": 140.0,
+    "text": " \u00a1Ah!",
+    "tokens": [50764, 6514, 10844, 0, 50814],
     "temperature": 0.0,
-    "avg_logprob": -0.4624551065852133,
-    "compression_ratio": 1.467455621301775,
-    "no_speech_prob": 0.002512054517865181
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 46,
-    "seek": 14000,
-    "start": 148.0,
-    "end": 149.0,
-    "text": " Idiot!",
-    "tokens": [50764, 40187, 310, 0, 50814],
+    "seek": 13100,
+    "start": 142.0,
+    "end": 143.0,
+    "text": " \u00a1Inv\u00e9sil!",
+    "tokens": [50914, 6514, 4575, 85, 2191, 388, 0, 50964],
     "temperature": 0.0,
-    "avg_logprob": -0.4624551065852133,
-    "compression_ratio": 1.467455621301775,
-    "no_speech_prob": 0.002512054517865181
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 47,
-    "seek": 14000,
-    "start": 150.0,
-    "end": 151.0,
-    "text": " Idiot!",
-    "tokens": [50864, 40187, 310, 0, 50914],
+    "seek": 13100,
+    "start": 144.0,
+    "end": 145.0,
+    "text": " \u00a1Idiota!",
+    "tokens": [51014, 6514, 40, 4504, 5377, 0, 51064],
     "temperature": 0.0,
-    "avg_logprob": -0.4624551065852133,
-    "compression_ratio": 1.467455621301775,
-    "no_speech_prob": 0.002512054517865181
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 48,
-    "seek": 14000,
-    "start": 152.0,
-    "end": 154.0,
-    "text": " Stupid, stupid, stupid creature!",
-    "tokens": [50964, 37659, 11, 6631, 11, 6631, 12797, 0, 51064],
+    "seek": 13100,
+    "start": 146.0,
+    "end": 148.0,
+    "text": " \u00a1Est\u00fapida criatura emplumada!",
+    "tokens": [
+      51114, 6514, 29545, 44492, 2887, 12815, 19660, 846, 564, 449, 1538, 0,
+      51214
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.4624551065852133,
-    "compression_ratio": 1.467455621301775,
-    "no_speech_prob": 0.002512054517865181
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 49,
-    "seek": 14000,
-    "start": 155.0,
-    "end": 158.0,
-    "text": " Look at me, it's so dark, I'm not a little boy, you're disgusting!",
-    "tokens": [
-      51114, 2053, 412, 385, 11, 309, 311, 370, 2877, 11, 286, 478, 406, 257,
-      707, 3237, 11, 291, 434, 17552, 0, 51264
-    ],
+    "seek": 13100,
+    "start": 149.0,
+    "end": 150.0,
+    "text": " Mira, me soy tan t\u00edo.",
+    "tokens": [51264, 28394, 11, 385, 8812, 7603, 256, 20492, 13, 51314],
     "temperature": 0.0,
-    "avg_logprob": -0.4624551065852133,
-    "compression_ratio": 1.467455621301775,
-    "no_speech_prob": 0.002512054517865181
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 50,
-    "seek": 14000,
-    "start": 159.0,
-    "end": 161.0,
-    "text": " You're so stupid, why aren't you extinguished?",
+    "seek": 13100,
+    "start": 150.0,
+    "end": 152.0,
+    "text": " No soy un pollo, eres asqueroso.",
     "tokens": [
-      51314, 509, 434, 370, 6631, 11, 983, 3212, 380, 291, 33829, 84, 4729, 30,
-      51414
+      51314, 883, 8812, 517, 714, 1913, 11, 30065, 382, 8035, 9869, 13, 51414
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.4624551065852133,
-    "compression_ratio": 1.467455621301775,
-    "no_speech_prob": 0.002512054517865181
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 51,
-    "seek": 14000,
-    "start": 164.0,
-    "end": 166.0,
-    "text": " Who the hell are you?",
-    "tokens": [51564, 2102, 264, 4921, 366, 291, 30, 51664],
+    "seek": 13100,
+    "start": 153.0,
+    "end": 154.0,
+    "text": " \u00a1Bien, eres tan est\u00fapido!",
+    "tokens": [
+      51464, 6514, 33, 1053, 11, 30065, 7603, 871, 44492, 2925, 0, 51514
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.4624551065852133,
-    "compression_ratio": 1.467455621301775,
-    "no_speech_prob": 0.002512054517865181
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 52,
-    "seek": 14000,
-    "start": 167.0,
-    "end": 168.0,
-    "text": " Donald Trump?",
-    "tokens": [51714, 8632, 3899, 30, 51764],
+    "seek": 13100,
+    "start": 154.0,
+    "end": 155.0,
+    "text": " \u00bfPor qu\u00e9 no te haces esto?",
+    "tokens": [51514, 3841, 24907, 8057, 572, 535, 324, 887, 7433, 30, 51564],
     "temperature": 0.0,
-    "avg_logprob": -0.4624551065852133,
-    "compression_ratio": 1.467455621301775,
-    "no_speech_prob": 0.002512054517865181
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 53,
-    "seek": 17000,
-    "start": 170.0,
-    "end": 171.0,
-    "text": " Donald Trump?",
-    "tokens": [50364, 8632, 3899, 30, 50414],
+    "seek": 13100,
+    "start": 156.0,
+    "end": 157.0,
+    "text": " No, no.",
+    "tokens": [51614, 883, 11, 572, 13, 51664],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.42100354603358675,
+    "compression_ratio": 1.281767955801105,
+    "no_speech_prob": 0.19126690924167633
   },
   {
     "id": 54,
-    "seek": 17000,
-    "start": 173.0,
-    "end": 175.0,
-    "text": " Get rid of that dog.",
-    "tokens": [50514, 3240, 3973, 295, 300, 3000, 13, 50614],
+    "seek": 15700,
+    "start": 157.0,
+    "end": 159.0,
+    "text": " \u00bfY t\u00fa a qui\u00e9n rayo le legasas?",
+    "tokens": [
+      50364, 3841, 56, 15056, 257, 35327, 18592, 78, 476, 1676, 296, 296, 30,
+      50464
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.3542518093161387,
+    "compression_ratio": 1.2183098591549295,
+    "no_speech_prob": 0.043997421860694885
   },
   {
     "id": 55,
-    "seek": 17000,
-    "start": 179.0,
-    "end": 182.0,
-    "text": " I'm sorry, I'm not stupid, you're disgusting in my hand!",
-    "tokens": [
-      50814, 286, 478, 2597, 11, 286, 478, 406, 6631, 11, 291, 434, 17552, 294,
-      452, 1011, 0, 50964
-    ],
+    "seek": 15700,
+    "start": 160.0,
+    "end": 161.0,
+    "text": " \u00bfAl torpe de Donald?",
+    "tokens": [50514, 3841, 9171, 3930, 494, 368, 8632, 30, 50564],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.3542518093161387,
+    "compression_ratio": 1.2183098591549295,
+    "no_speech_prob": 0.043997421860694885
   },
   {
     "id": 56,
-    "seek": 17000,
-    "start": 186.0,
-    "end": 188.0,
-    "text": " Well, I don't think I'll ever see you again.",
-    "tokens": [
-      51164, 1042, 11, 286, 500, 380, 519, 286, 603, 1562, 536, 291, 797, 13,
-      51264
-    ],
+    "seek": 15700,
+    "start": 165.0,
+    "end": 167.0,
+    "text": " Apartate de ese canso.",
+    "tokens": [50764, 24111, 473, 368, 10167, 393, 539, 13, 50864],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.3542518093161387,
+    "compression_ratio": 1.2183098591549295,
+    "no_speech_prob": 0.043997421860694885
   },
   {
     "id": 57,
-    "seek": 17000,
-    "start": 188.0,
-    "end": 189.0,
-    "text": " Damn it!",
-    "tokens": [51264, 11907, 309, 0, 51314],
+    "seek": 15700,
+    "start": 171.0,
+    "end": 173.0,
+    "text": " Lo siento, in\u00fatil pollo talado,",
+    "tokens": [
+      51064, 6130, 40340, 11, 294, 2481, 20007, 714, 1913, 4023, 1573, 11, 51164
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.3542518093161387,
+    "compression_ratio": 1.2183098591549295,
+    "no_speech_prob": 0.043997421860694885
   },
   {
     "id": 58,
-    "seek": 17000,
-    "start": 194.0,
-    "end": 195.0,
-    "text": " Very funny.",
-    "tokens": [51564, 4372, 4074, 13, 51614],
+    "seek": 15700,
+    "start": 173.0,
+    "end": 175.0,
+    "text": " pero defecaste en mi mano.",
+    "tokens": [51164, 4768, 1060, 3045, 9079, 465, 2752, 18384, 13, 51264],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.3542518093161387,
+    "compression_ratio": 1.2183098591549295,
+    "no_speech_prob": 0.043997421860694885
   },
   {
     "id": 59,
-    "seek": 17000,
-    "start": 195.0,
-    "end": 196.0,
-    "text": " Yeah, very funny.",
-    "tokens": [51614, 865, 11, 588, 4074, 13, 51664],
+    "seek": 15700,
+    "start": 178.0,
+    "end": 180.0,
+    "text": " Bueno, creo que no te voy.",
+    "tokens": [51414, 16046, 11, 14336, 631, 572, 535, 7552, 13, 51514],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.3542518093161387,
+    "compression_ratio": 1.2183098591549295,
+    "no_speech_prob": 0.043997421860694885
   },
   {
     "id": 60,
-    "seek": 17000,
-    "start": 196.0,
-    "end": 197.0,
-    "text": " I remember...",
-    "tokens": [51664, 286, 1604, 485, 51714],
+    "seek": 15700,
+    "start": 181.0,
+    "end": 182.0,
+    "text": " No, no.",
+    "tokens": [51564, 883, 11, 572, 13, 51614],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.3542518093161387,
+    "compression_ratio": 1.2183098591549295,
+    "no_speech_prob": 0.043997421860694885
   },
   {
     "id": 61,
-    "seek": 17000,
-    "start": 197.0,
-    "end": 198.0,
-    "text": " Ben Stiller?",
-    "tokens": [51714, 3964, 8291, 260, 30, 51764],
+    "seek": 18200,
+    "start": 182.0,
+    "end": 183.0,
+    "text": " \u00a1Mano!",
+    "tokens": [50364, 6514, 44, 3730, 0, 50414],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.2555226546067458,
+    "compression_ratio": 1.2312925170068028,
+    "no_speech_prob": 0.022374259307980537
   },
   {
     "id": 62,
-    "seek": 17000,
-    "start": 198.0,
-    "end": 199.0,
-    "text": " Ben.",
-    "tokens": [51764, 3964, 13, 51814],
+    "seek": 18200,
+    "start": 186.0,
+    "end": 188.0,
+    "text": " Bueno, creo que no te volver\u00e9 a ver.",
+    "tokens": [
+      50564, 16046, 11, 14336, 631, 572, 535, 33998, 526, 257, 1306, 13, 50664
+    ],
     "temperature": 0.0,
-    "avg_logprob": -0.5294179439544677,
-    "compression_ratio": 1.3101265822784811,
-    "no_speech_prob": 0.0032426551915705204
+    "avg_logprob": -0.2555226546067458,
+    "compression_ratio": 1.2312925170068028,
+    "no_speech_prob": 0.022374259307980537
   },
   {
     "id": 63,
-    "seek": 19900,
-    "start": 199.0,
-    "end": 200.0,
-    "text": " Who the hell are you?",
-    "tokens": [50364, 2102, 264, 4921, 366, 291, 30, 50414],
+    "seek": 18200,
+    "start": 188.0,
+    "end": 189.0,
+    "text": " \u00a1Demonios!",
+    "tokens": [50664, 6514, 35, 36228, 2717, 0, 50714],
     "temperature": 0.0,
-    "avg_logprob": -0.4103408936531313,
-    "compression_ratio": 1.394736842105263,
-    "no_speech_prob": 0.01719924435019493
+    "avg_logprob": -0.2555226546067458,
+    "compression_ratio": 1.2312925170068028,
+    "no_speech_prob": 0.022374259307980537
   },
   {
     "id": 64,
-    "seek": 19900,
-    "start": 200.0,
-    "end": 201.0,
-    "text": " Who the hell are you?",
-    "tokens": [50414, 2102, 264, 4921, 366, 291, 30, 50464],
+    "seek": 18200,
+    "start": 194.0,
+    "end": 195.0,
+    "text": " Muy gracioso.",
+    "tokens": [50964, 39586, 11625, 23540, 13, 51014],
     "temperature": 0.0,
-    "avg_logprob": -0.4103408936531313,
-    "compression_ratio": 1.394736842105263,
-    "no_speech_prob": 0.01719924435019493
+    "avg_logprob": -0.2555226546067458,
+    "compression_ratio": 1.2312925170068028,
+    "no_speech_prob": 0.022374259307980537
   },
   {
     "id": 65,
-    "seek": 19900,
-    "start": 201.0,
-    "end": 202.0,
-    "text": " Donald Trump?",
-    "tokens": [50464, 8632, 3899, 30, 50514],
+    "seek": 18200,
+    "start": 195.0,
+    "end": 196.0,
+    "text": " S\u00ed, fue muy gracioso.",
+    "tokens": [51014, 12375, 11, 9248, 5323, 11625, 23540, 13, 51064],
     "temperature": 0.0,
-    "avg_logprob": -0.4103408936531313,
-    "compression_ratio": 1.394736842105263,
-    "no_speech_prob": 0.01719924435019493
+    "avg_logprob": -0.2555226546067458,
+    "compression_ratio": 1.2312925170068028,
+    "no_speech_prob": 0.022374259307980537
   },
   {
     "id": 66,
-    "seek": 19900,
-    "start": 208.0,
-    "end": 209.0,
-    "text": " Idiot.",
-    "tokens": [50814, 40187, 310, 13, 50864],
+    "seek": 18200,
+    "start": 196.0,
+    "end": 197.0,
+    "text": " Y me acuerdo de...",
+    "tokens": [51064, 398, 385, 28113, 368, 485, 51114],
     "temperature": 0.0,
-    "avg_logprob": -0.4103408936531313,
-    "compression_ratio": 1.394736842105263,
-    "no_speech_prob": 0.01719924435019493
+    "avg_logprob": -0.2555226546067458,
+    "compression_ratio": 1.2312925170068028,
+    "no_speech_prob": 0.022374259307980537
   },
   {
     "id": 67,
-    "seek": 19900,
-    "start": 210.0,
-    "end": 212.0,
-    "text": " You're so cute, I'm a little boy.",
+    "seek": 18200,
+    "start": 198.0,
+    "end": 200.0,
+    "text": " \u00bfY t\u00fa a qui\u00e9n rayos le granas?",
     "tokens": [
-      50914, 509, 434, 370, 4052, 11, 286, 478, 257, 707, 3237, 13, 51014
+      51164, 3841, 56, 15056, 257, 35327, 18592, 329, 476, 9370, 296, 30, 51264
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.4103408936531313,
-    "compression_ratio": 1.394736842105263,
-    "no_speech_prob": 0.01719924435019493
+    "avg_logprob": -0.2555226546067458,
+    "compression_ratio": 1.2312925170068028,
+    "no_speech_prob": 0.022374259307980537
   },
   {
     "id": 68,
-    "seek": 19900,
-    "start": 212.0,
-    "end": 213.0,
-    "text": " You're so cute.",
-    "tokens": [51014, 509, 434, 370, 4052, 13, 51064],
+    "seek": 18200,
+    "start": 200.0,
+    "end": 201.0,
+    "text": " \u00bfA qui\u00e9n?",
+    "tokens": [51264, 3841, 32, 35327, 30, 51314],
     "temperature": 0.0,
-    "avg_logprob": -0.4103408936531313,
-    "compression_ratio": 1.394736842105263,
-    "no_speech_prob": 0.01719924435019493
+    "avg_logprob": -0.2555226546067458,
+    "compression_ratio": 1.2312925170068028,
+    "no_speech_prob": 0.022374259307980537
   },
   {
     "id": 69,
-    "seek": 19900,
-    "start": 214.0,
-    "end": 217.0,
-    "text": " How funny, I don't know why you're so funny.",
+    "seek": 18200,
+    "start": 201.0,
+    "end": 203.0,
+    "text": " \u00bfAl torpe de Donald?",
+    "tokens": [51314, 3841, 9171, 3930, 494, 368, 8632, 30, 51414],
+    "temperature": 0.0,
+    "avg_logprob": -0.2555226546067458,
+    "compression_ratio": 1.2312925170068028,
+    "no_speech_prob": 0.022374259307980537
+  },
+  {
+    "id": 70,
+    "seek": 20300,
+    "start": 204.0,
+    "end": 205.0,
+    "text": " \u00a1Qu\u00e9 coj\u00f3n!",
+    "tokens": [50414, 6514, 15137, 598, 73, 1801, 0, 50464],
+    "temperature": 0.0,
+    "avg_logprob": -0.37815108953737747,
+    "compression_ratio": 1.231578947368421,
+    "no_speech_prob": 0.053496263921260834
+  },
+  {
+    "id": 71,
+    "seek": 20300,
+    "start": 206.0,
+    "end": 207.0,
+    "text": " No es tan tierno.",
+    "tokens": [50514, 883, 785, 7603, 12362, 1771, 13, 50564],
+    "temperature": 0.0,
+    "avg_logprob": -0.37815108953737747,
+    "compression_ratio": 1.231578947368421,
+    "no_speech_prob": 0.053496263921260834
+  },
+  {
+    "id": 72,
+    "seek": 20300,
+    "start": 207.0,
+    "end": 208.0,
+    "text": " Soy un pollo.",
+    "tokens": [50564, 24758, 517, 714, 1913, 13, 50614],
+    "temperature": 0.0,
+    "avg_logprob": -0.37815108953737747,
+    "compression_ratio": 1.231578947368421,
+    "no_speech_prob": 0.053496263921260834
+  },
+  {
+    "id": 73,
+    "seek": 20300,
+    "start": 208.0,
+    "end": 209.0,
+    "text": " S\u00ed, eso es tierno.",
+    "tokens": [50614, 12375, 11, 7287, 785, 12362, 1771, 13, 50664],
+    "temperature": 0.0,
+    "avg_logprob": -0.37815108953737747,
+    "compression_ratio": 1.231578947368421,
+    "no_speech_prob": 0.053496263921260834
+  },
+  {
+    "id": 74,
+    "seek": 20300,
+    "start": 210.0,
+    "end": 211.0,
+    "text": " \u00a1Qu\u00e9 gracioso!",
+    "tokens": [50714, 6514, 15137, 11625, 23540, 0, 50764],
+    "temperature": 0.0,
+    "avg_logprob": -0.37815108953737747,
+    "compression_ratio": 1.231578947368421,
+    "no_speech_prob": 0.053496263921260834
+  },
+  {
+    "id": 75,
+    "seek": 20300,
+    "start": 211.0,
+    "end": 213.0,
+    "text": " No s\u00e9 por qu\u00e9 era tan gracioso.",
     "tokens": [
-      51114, 1012, 4074, 11, 286, 500, 380, 458, 983, 291, 434, 370, 4074, 13,
-      51264
+      50764, 883, 7910, 1515, 8057, 4249, 7603, 11625, 23540, 13, 50864
     ],
     "temperature": 0.0,
-    "avg_logprob": -0.4103408936531313,
-    "compression_ratio": 1.394736842105263,
-    "no_speech_prob": 0.01719924435019493
+    "avg_logprob": -0.37815108953737747,
+    "compression_ratio": 1.231578947368421,
+    "no_speech_prob": 0.053496263921260834
   }
 ]

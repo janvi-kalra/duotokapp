@@ -13,10 +13,9 @@ import { Ionicons, Entypo, Foundation } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import Loader from "../components/loader";
 import { getMinutesSecondsFromMilliseconds } from "../utils/getMinutesSecondsFromMilliseconds";
-import subtitles from "../assets/subtitles/FriendsVideo.json";
 
 
-const VideoPlayer = ({ route, setCurrentSubtitle}) => {
+const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
   const { src } = route.params;
   const navigation = useNavigation();
   const [status, setStatus] = React.useState<any>();
@@ -25,7 +24,6 @@ const VideoPlayer = ({ route, setCurrentSubtitle}) => {
     status?.isPlaying
   );
   const video = React.useRef(null);
-  const [currentTime, setCurrentTime] = useState(0);
 
   async function changeScreenOrientation(type: string) {
     await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock[type]);
@@ -60,23 +58,7 @@ const VideoPlayer = ({ route, setCurrentSubtitle}) => {
       }%`,
       
     });
-    setCurrentTime(status?.positionMillis / 1000);
-
-    // if (subtitles && subtitles.length > 0) {
-      const currentSubtitleIndex = subtitles.findIndex(
-        (subtitle) => {
-          if (currentTime >= subtitle.start && currentTime <= subtitle.end) {
-            return subtitle;
-          }
-        }
-      );
-
-      if (currentSubtitleIndex >= 0) {
-        setCurrentSubtitle(subtitles[currentSubtitleIndex].text);
-      } else {
-        setCurrentSubtitle('');
-      }
-    // }
+    calculateCurrentSubtitle(status);
   }, [status]);
 
   return (
