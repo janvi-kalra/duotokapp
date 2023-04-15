@@ -5,6 +5,7 @@ import Home from "./screens/home";
 import { useFonts } from "expo-font";
 import Curations from "./screens/curations";
 import VideoPlayer from "./screens/video-player";
+import VideoContainer from './screens/video-container';
 
 const Stack = createNativeStackNavigator();
 
@@ -34,7 +35,7 @@ export default function App() {
         />
         <Stack.Screen
           name="Video"
-          component={VideoPlayer}
+          component={VideoContainer}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

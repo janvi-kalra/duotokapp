@@ -30,7 +30,7 @@ const forYouVideosData = [
     image: require("../assets/images/video-thumbnail-1.png"),
     title: require("../assets/images/video-title-1.png"),
     video:
-      "https://imdb-video.media-imdb.com/vi531759385/1401497881123-xszl4z-1427841074439.mp4?Expires=1671882426&Signature=oFLCYjImceTMBplp2mBaM6wqau9T98m~GNEz3psZYU8wRfSp~lP47dUgOsE~DTkHQnDv-dMrQKUHnhtKnfPFYAtzSPGxDbW1TFmwUQiAcNujc-qN7NSaUWBBErz4cmI2yEwCI7r0gHixGIBjr6r4I3OmbBa0hoyqlcfNoLSiqdl6225i4MBFUdpTdr8lsFPYd6dAgqPQ9l23uZKD9eL4vbjP-PoLgDh6CA-icyw59Voq5DdXsHFYHWSxjtaZGrAZ~pllwZ7aP-iT-iR5uXE-s2tCWXYLCr6q-Y-DJ3EjYB8D1xAzXOe-gOGcr15CTsvVWONuuUohqaaRp4jdaz1GVA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "https://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4",
   },
   {
     id: 2,

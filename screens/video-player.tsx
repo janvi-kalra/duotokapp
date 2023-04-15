@@ -28,13 +28,14 @@ const VideoPlayer = ({ route }) => {
     await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock[type]);
   }
 
-  React.useEffect(() => {
-    const timeout = setTimeout(() => {
-      changeScreenOrientation("LANDSCAPE_RIGHT");
-    }, 1000);
+  // Code to rotate video 
+  // React.useEffect(() => {
+  //   const timeout = setTimeout(() => {
+  //     changeScreenOrientation("LANDSCAPE_RIGHT");
+  //   }, 1000);
 
-    return () => clearTimeout(timeout);
-  }, []);
+  //   return () => clearTimeout(timeout);
+  // }, []);
 
   React.useEffect(() => {
     status?.isPlaying && setShowControls(true);
@@ -52,7 +53,9 @@ const VideoPlayer = ({ route }) => {
       width: `${
         (Number(status?.positionMillis) / Number(status?.durationMillis)) * 90
       }%`,
+      
     });
+    console.log(`status set with value at ${status}`)
   }, [status]);
 
   return (
