@@ -1,1215 +1,1202 @@
-{
-  "text": " \u00bfQue hay? \u00a1S Bard\u043a\u0438! No... \u00a1Falzi! \u00a1Digua! \u00a1Go! \u00a1S\u00ed! \u00bfSabes que ya llevo un rato mir\u00e1ndote? \u00a1Tengo que bailar contigo hoy! \u00a1Digua! Dic que tu mirada ya estaba llam\u00e1ndome \u00a1M\u00e1estrame el camino que yo voy! \u00a1Oh! \u00a1Tur! T\u00fa eres el im\u00e1n y yo soy el metal Me voy acercando y voy armando el plan Solo compensarlo, se acelera el pulso \u00a1Oh, yeah! \u00a1Ya! Ya me est\u00e1 gustando m\u00e1s de lo normal Todo mi sentido va pidiendo m\u00e1s Estoy que tomarlo sin ning\u00fan apuro \u00a1Despacito! Quiero respirar tu cuello despacito Deja que te diga tosas al o\u00eddo Para que te acuerdes si no est\u00e1s conmigo \u00a1Despacito! Quiero deshundarte a besos despacito Firma en las paredes de tu laberinto Y hacer de tu cuerpo tu rumba nuscrito \u00a1Sube, sube, sube! \u00a1Sube, sube! Quiero ver bailar tu pelo Quiero hacer tu ritmo Que \u00e9l ense\u00f1e esa mi boca Tus lugares favoritos Favoritos, favoritos, baby D\u00e9jame sobrepasar tus olas de peligro Hasta provocar tu oscrito Y que olvides tu apellido Si te pido un beso, vendamelo Yo s\u00e9 que est\u00e1s pens\u00e1ndolo Llevo tiempo intent\u00e1ndolo Mami esto es bandit\u00e1ndolo Sabe que tu coraz\u00f3n conmigo te hace bam bam Sabe que sabe, va hasta buscando de mi bam bam Me empruebas de mi boca para ver c\u00f3mo te sabes Quiero, quiero, quiero ver cu\u00e1nto amor a ti te cabe Yo no tengo prisa, yo me quiero dar el viaje Me pesea molento, despu\u00e9s salaje Pasito a pasito, suave, suavecito Nos vamos pegando poquito a poquito Cuando t\u00fa me besas con esa destreza Lo que eres malicia con delicadeza Pasito a pasito, suave, suavecito Nos vamos pegando poquito a poquito Y es que sabe y ese es un rompe cabeza Pero pa' montarlo aqu\u00ed tengo la pieza Despacito Quiero respirar tu cuello despacito Deja que te diga cosas al o\u00eddo Para que te acuerdes si no est\u00e1s conmigo Despacito Quiero deshugarte a ver sos despacito Prima las paredes de tu laberinto Y hacer de tu cuerpo todo un manuscrito Quiero bien bailar tu pelo, quiero hacer tu ritmo Que le ense\u00f1es a mi boca Tus lugares favoritos Favorito favorito baby D\u00e9jame sobrepasar tus olas de peligro Hasta provocar tus gritos Y que olvides tu apellido Despacito Vamos a hacerlo en una playa en Puerto Rico Hasta que las olas griten hay vendido Para que mis sellos se quede contigo Despacito apacito, suave suavecito Nos vamos pegando poquito a poquito Que le ense\u00f1es a mi boca Tus lugares favoritos Favorito favorito, suave suavecito Despacito, suave suavecito Nos vamos pegando poquito a poquito Hasta provocar tus gritos Y que olvides tu apellido Despacito Despacito apacito, suave suavecito Nos vamos pegando poquito a poquito Despacito apacito, suave suavecito Nos vamos pegando poquito a poquito",
-  "segments": [
-    {
-      "id": 0,
-      "seek": 0,
-      "start": 0.0,
-      "end": 1.4000000000000001,
-      "text": " \u00bfQue hay?",
-      "tokens": [50364, 3841, 24011, 4842, 30, 50434],
-      "temperature": 1.0,
-      "avg_logprob": -3.413893938064575,
-      "compression_ratio": 0.5555555555555556,
-      "no_speech_prob": 0.5644416809082031
-    },
-    {
-      "id": 1,
-      "seek": 140,
-      "start": 1.4,
-      "end": 3.4,
-      "text": " \u00a1S Bard\u043a\u0438!",
-      "tokens": [50364, 6514, 50, 26841, 2241, 0, 50464],
-      "temperature": 1.0,
-      "avg_logprob": -3.140651301333779,
-      "compression_ratio": 0.7567567567567568,
-      "no_speech_prob": 0.3720545768737793
-    },
-    {
-      "id": 2,
-      "seek": 140,
-      "start": 28.68,
-      "end": 29.48,
-      "text": " No...",
-      "tokens": [51728, 883, 485, 51768],
-      "temperature": 1.0,
-      "avg_logprob": -3.140651301333779,
-      "compression_ratio": 0.7567567567567568,
-      "no_speech_prob": 0.3720545768737793
-    },
-    {
-      "id": 3,
-      "seek": 140,
-      "start": 30.24,
-      "end": 31.36,
-      "text": " \u00a1Falzi!",
-      "tokens": [51806, 6514, 37, 304, 3992, 0, 51862],
-      "temperature": 1.0,
-      "avg_logprob": -3.140651301333779,
-      "compression_ratio": 0.7567567567567568,
-      "no_speech_prob": 0.3720545768737793
-    },
-    {
-      "id": 4,
-      "seek": 3140,
-      "start": 31.56,
-      "end": 32.199999999999996,
-      "text": " \u00a1Digua!",
-      "tokens": [50372, 6514, 35, 328, 4398, 0, 50404],
-      "temperature": 0.0,
-      "avg_logprob": -0.5223042502332089,
-      "compression_ratio": 1.1916666666666667,
-      "no_speech_prob": 0.011265081353485584
-    },
-    {
-      "id": 5,
-      "seek": 3140,
-      "start": 40.8,
-      "end": 41.4,
-      "text": " \u00a1Go!",
-      "tokens": [50834, 6514, 12104, 0, 50864],
-      "temperature": 0.0,
-      "avg_logprob": -0.5223042502332089,
-      "compression_ratio": 1.1916666666666667,
-      "no_speech_prob": 0.011265081353485584
-    },
-    {
-      "id": 6,
-      "seek": 3140,
-      "start": 41.4,
-      "end": 42.2,
-      "text": " \u00a1S\u00ed!",
-      "tokens": [50864, 6514, 30463, 0, 50904],
-      "temperature": 0.0,
-      "avg_logprob": -0.5223042502332089,
-      "compression_ratio": 1.1916666666666667,
-      "no_speech_prob": 0.011265081353485584
-    },
-    {
-      "id": 7,
-      "seek": 3140,
-      "start": 42.2,
-      "end": 46.2,
-      "text": " \u00bfSabes que ya llevo un rato mir\u00e1ndote?",
-      "tokens": [
-        50904, 3841, 47556, 279, 631, 2478, 12038, 3080, 517, 367, 2513, 3149,
-        18606, 1370, 30, 51104
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.5223042502332089,
-      "compression_ratio": 1.1916666666666667,
-      "no_speech_prob": 0.011265081353485584
-    },
-    {
-      "id": 8,
-      "seek": 3140,
-      "start": 46.8,
-      "end": 50.2,
-      "text": " \u00a1Tengo que bailar contigo hoy!",
-      "tokens": [
-        51134, 6514, 51, 30362, 631, 19313, 289, 660, 7483, 13775, 0, 51304
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.5223042502332089,
-      "compression_ratio": 1.1916666666666667,
-      "no_speech_prob": 0.011265081353485584
-    },
-    {
-      "id": 9,
-      "seek": 3140,
-      "start": 51.0,
-      "end": 51.8,
-      "text": " \u00a1Digua!",
-      "tokens": [51344, 6514, 35, 328, 4398, 0, 51384],
-      "temperature": 0.0,
-      "avg_logprob": -0.5223042502332089,
-      "compression_ratio": 1.1916666666666667,
-      "no_speech_prob": 0.011265081353485584
-    },
-    {
-      "id": 10,
-      "seek": 3140,
-      "start": 52.2,
-      "end": 57.0,
-      "text": " Dic que tu mirada ya estaba llam\u00e1ndome",
-      "tokens": [
-        51404, 413, 299, 631, 2604, 3149, 1538, 2478, 17544, 16848, 18606, 423,
-        51644
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.5223042502332089,
-      "compression_ratio": 1.1916666666666667,
-      "no_speech_prob": 0.011265081353485584
-    },
-    {
-      "id": 11,
-      "seek": 5700,
-      "start": 57.6,
-      "end": 61.2,
-      "text": " \u00a1M\u00e1estrame el camino que yo voy!",
-      "tokens": [
-        50394, 6514, 44, 842, 377, 81, 529, 806, 34124, 631, 5290, 7552, 0,
-        50574
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 12,
-      "seek": 5700,
-      "start": 62.0,
-      "end": 62.8,
-      "text": " \u00a1Oh!",
-      "tokens": [50614, 6514, 3756, 0, 50654],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 13,
-      "seek": 5700,
-      "start": 63.0,
-      "end": 63.8,
-      "text": " \u00a1Tur!",
-      "tokens": [50664, 6514, 51, 374, 0, 50704],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 14,
-      "seek": 5700,
-      "start": 63.8,
-      "end": 66.4,
-      "text": " T\u00fa eres el im\u00e1n y yo soy el metal",
-      "tokens": [
-        50704, 46341, 30065, 806, 566, 7200, 288, 5290, 8812, 806, 5760, 50834
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 15,
-      "seek": 5700,
-      "start": 66.4,
-      "end": 69.0,
-      "text": " Me voy acercando y voy armando el plan",
-      "tokens": [
-        50834, 1923, 7552, 696, 2869, 1806, 288, 7552, 3726, 1806, 806, 1393,
-        50964
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 16,
-      "seek": 5700,
-      "start": 69.0,
-      "end": 72.2,
-      "text": " Solo compensarlo, se acelera el pulso",
-      "tokens": [
-        50964, 26452, 11598, 19457, 11, 369, 696, 338, 1663, 806, 8331, 539,
-        51124
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 17,
-      "seek": 5700,
-      "start": 72.8,
-      "end": 73.8,
-      "text": " \u00a1Oh, yeah!",
-      "tokens": [51154, 6514, 3756, 11, 1338, 0, 51204],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 18,
-      "seek": 5700,
-      "start": 73.8,
-      "end": 74.4,
-      "text": " \u00a1Ya!",
-      "tokens": [51204, 6514, 26795, 0, 51234],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 19,
-      "seek": 5700,
-      "start": 74.4,
-      "end": 77.2,
-      "text": " Ya me est\u00e1 gustando m\u00e1s de lo normal",
-      "tokens": [
-        51234, 6080, 385, 3192, 9679, 1806, 3573, 368, 450, 2710, 51374
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 20,
-      "seek": 5700,
-      "start": 77.2,
-      "end": 79.8,
-      "text": " Todo mi sentido va pidiendo m\u00e1s",
-      "tokens": [51374, 26466, 2752, 19850, 2773, 44540, 7304, 3573, 51504],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 21,
-      "seek": 5700,
-      "start": 79.8,
-      "end": 83.2,
-      "text": " Estoy que tomarlo sin ning\u00fan apuro",
-      "tokens": [
-        51504, 49651, 631, 2916, 19457, 3343, 30394, 1882, 7052, 51674
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 22,
-      "seek": 5700,
-      "start": 83.2,
-      "end": 85.8,
-      "text": " \u00a1Despacito!",
-      "tokens": [51674, 6514, 35, 13361, 326, 3528, 0, 51804],
-      "temperature": 0.0,
-      "avg_logprob": -0.2978653617527174,
-      "compression_ratio": 1.4656862745098038,
-      "no_speech_prob": 0.3223586678504944
-    },
-    {
-      "id": 23,
-      "seek": 8580,
-      "start": 85.8,
-      "end": 88.39999999999999,
-      "text": " Quiero respirar tu cuello despacito",
-      "tokens": [
-        50364, 2326, 12030, 18412, 289, 2604, 22656, 1913, 4887, 326, 3528,
-        50494
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 24,
-      "seek": 8580,
-      "start": 88.39999999999999,
-      "end": 91.2,
-      "text": " Deja que te diga tosas al o\u00eddo",
-      "tokens": [
-        50494, 1346, 2938, 631, 535, 2528, 64, 281, 82, 296, 419, 277, 28470,
-        50634
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 25,
-      "seek": 8580,
-      "start": 91.2,
-      "end": 94.39999999999999,
-      "text": " Para que te acuerdes si no est\u00e1s conmigo",
-      "tokens": [
-        50634, 11107, 631, 535, 696, 5486, 14792, 1511, 572, 24389, 416, 76,
-        7483, 50794
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 26,
-      "seek": 8580,
-      "start": 94.39999999999999,
-      "end": 96.6,
-      "text": " \u00a1Despacito!",
-      "tokens": [50794, 6514, 35, 13361, 326, 3528, 0, 50904],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 27,
-      "seek": 8580,
-      "start": 96.6,
-      "end": 99.2,
-      "text": " Quiero deshundarte a besos despacito",
-      "tokens": [
-        50904, 2326, 12030, 730, 71, 997, 11026, 257, 4097, 329, 4887, 326,
-        3528, 51034
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 28,
-      "seek": 8580,
-      "start": 99.2,
-      "end": 102.0,
-      "text": " Firma en las paredes de tu laberinto",
-      "tokens": [
-        51034, 479, 347, 1696, 465, 2439, 280, 1642, 279, 368, 2604, 2715, 260,
-        17246, 51174
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 29,
-      "seek": 8580,
-      "start": 102.0,
-      "end": 104.4,
-      "text": " Y hacer de tu cuerpo tu rumba nuscrito",
-      "tokens": [
-        51174, 398, 6720, 368, 2604, 20264, 2604, 367, 49353, 297, 301, 66,
-        17492, 51294
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 30,
-      "seek": 8580,
-      "start": 104.4,
-      "end": 105.6,
-      "text": " \u00a1Sube, sube, sube!",
-      "tokens": [51294, 6514, 50, 1977, 11, 459, 650, 11, 459, 650, 0, 51354],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 31,
-      "seek": 8580,
-      "start": 105.6,
-      "end": 106.6,
-      "text": " \u00a1Sube, sube!",
-      "tokens": [51354, 6514, 50, 1977, 11, 459, 650, 0, 51404],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 32,
-      "seek": 8580,
-      "start": 106.6,
-      "end": 108.4,
-      "text": " Quiero ver bailar tu pelo",
-      "tokens": [51404, 2326, 12030, 1306, 19313, 289, 2604, 12167, 51494],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 33,
-      "seek": 8580,
-      "start": 108.4,
-      "end": 110.4,
-      "text": " Quiero hacer tu ritmo",
-      "tokens": [51494, 2326, 12030, 6720, 2604, 11289, 3280, 51594],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 34,
-      "seek": 8580,
-      "start": 110.4,
-      "end": 113.4,
-      "text": " Que \u00e9l ense\u00f1e esa mi boca",
-      "tokens": [51594, 4493, 11810, 31275, 68, 11342, 2752, 34624, 51744],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 35,
-      "seek": 8580,
-      "start": 113.4,
-      "end": 115.4,
-      "text": " Tus lugares favoritos",
-      "tokens": [51744, 42026, 33105, 2294, 11343, 51844],
-      "temperature": 0.0,
-      "avg_logprob": -0.2115365642390839,
-      "compression_ratio": 1.6167400881057268,
-      "no_speech_prob": 0.010041755624115467
-    },
-    {
-      "id": 36,
-      "seek": 11540,
-      "start": 115.4,
-      "end": 117.4,
-      "text": " Favoritos, favoritos, baby",
-      "tokens": [50364, 34240, 11343, 11, 2294, 11343, 11, 3186, 50464],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 37,
-      "seek": 11540,
-      "start": 117.4,
-      "end": 121.4,
-      "text": " D\u00e9jame sobrepasar tus olas de peligro",
-      "tokens": [
-        50464, 31153, 73, 529, 5473, 20990, 289, 20647, 2545, 296, 368, 43839,
-        340, 50664
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 38,
-      "seek": 11540,
-      "start": 121.4,
-      "end": 124.0,
-      "text": " Hasta provocar tu oscrito",
-      "tokens": [50664, 45027, 24568, 289, 2604, 3003, 66, 17492, 50794],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 39,
-      "seek": 11540,
-      "start": 124.0,
-      "end": 127.0,
-      "text": " Y que olvides tu apellido",
-      "tokens": [50794, 398, 631, 43851, 1875, 2604, 44315, 285, 2925, 50944],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 40,
-      "seek": 11540,
-      "start": 127.0,
-      "end": 128.8,
-      "text": " Si te pido un beso, vendamelo",
-      "tokens": [
-        50944, 4909, 535, 280, 2925, 517, 4097, 78, 11, 10169, 335, 10590, 51034
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 41,
-      "seek": 11540,
-      "start": 128.8,
-      "end": 130.0,
-      "text": " Yo s\u00e9 que est\u00e1s pens\u00e1ndolo",
-      "tokens": [51034, 7616, 7910, 631, 24389, 6099, 18606, 7902, 51094],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 42,
-      "seek": 11540,
-      "start": 130.0,
-      "end": 131.4,
-      "text": " Llevo tiempo intent\u00e1ndolo",
-      "tokens": [51094, 441, 306, 3080, 11772, 8446, 18606, 7902, 51164],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 43,
-      "seek": 11540,
-      "start": 131.4,
-      "end": 133.0,
-      "text": " Mami esto es bandit\u00e1ndolo",
-      "tokens": [51164, 376, 4526, 7433, 785, 4116, 270, 18606, 7902, 51244],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 44,
-      "seek": 11540,
-      "start": 133.0,
-      "end": 135.6,
-      "text": " Sabe que tu coraz\u00f3n conmigo te hace bam bam",
-      "tokens": [
-        51244, 318, 4488, 631, 2604, 34518, 416, 76, 7483, 535, 10032, 18132,
-        18132, 51374
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 45,
-      "seek": 11540,
-      "start": 135.6,
-      "end": 138.20000000000002,
-      "text": " Sabe que sabe, va hasta buscando de mi bam bam",
-      "tokens": [
-        51374, 318, 4488, 631, 12275, 11, 2773, 10764, 46804, 368, 2752, 18132,
-        18132, 51504
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 46,
-      "seek": 11540,
-      "start": 138.20000000000002,
-      "end": 141.0,
-      "text": " Me empruebas de mi boca para ver c\u00f3mo te sabes",
-      "tokens": [
-        51504, 1923, 846, 1424, 622, 16342, 368, 2752, 34624, 1690, 1306, 12826,
-        535, 37790, 51644
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 47,
-      "seek": 11540,
-      "start": 141.0,
-      "end": 143.8,
-      "text": " Quiero, quiero, quiero ver cu\u00e1nto amor a ti te cabe",
-      "tokens": [
-        51644, 2326, 12030, 11, 16811, 11, 16811, 1306, 44256, 78, 15543, 257,
-        8757, 535, 18893, 51784
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2725234031677246,
-      "compression_ratio": 1.6370656370656371,
-      "no_speech_prob": 0.0003293041663710028
-    },
-    {
-      "id": 48,
-      "seek": 14380,
-      "start": 143.8,
-      "end": 146.4,
-      "text": " Yo no tengo prisa, yo me quiero dar el viaje",
-      "tokens": [
-        50364, 7616, 572, 13989, 582, 3837, 11, 5290, 385, 16811, 4072, 806,
-        48932, 50494
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 49,
-      "seek": 14380,
-      "start": 146.4,
-      "end": 149.0,
-      "text": " Me pesea molento, despu\u00e9s salaje",
-      "tokens": [
-        50494, 1923, 280, 1130, 64, 8015, 15467, 11, 15283, 1845, 11153, 50624
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 50,
-      "seek": 14380,
-      "start": 149.0,
-      "end": 151.8,
-      "text": " Pasito a pasito, suave, suavecito",
-      "tokens": [
-        50624, 14199, 3528, 257, 1736, 3528, 11, 459, 946, 11, 459, 946, 32030,
-        50764
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 51,
-      "seek": 14380,
-      "start": 151.8,
-      "end": 154.4,
-      "text": " Nos vamos pegando poquito a poquito",
-      "tokens": [50764, 18749, 5295, 17199, 1806, 28229, 257, 28229, 50894],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 52,
-      "seek": 14380,
-      "start": 154.4,
-      "end": 157.20000000000002,
-      "text": " Cuando t\u00fa me besas con esa destreza",
-      "tokens": [
-        50894, 21907, 15056, 385, 4097, 296, 416, 11342, 2677, 265, 2394, 51034
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 53,
-      "seek": 14380,
-      "start": 157.20000000000002,
-      "end": 159.8,
-      "text": " Lo que eres malicia con delicadeza",
-      "tokens": [
-        51034, 6130, 631, 30065, 2806, 15341, 416, 29831, 762, 2394, 51164
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 54,
-      "seek": 14380,
-      "start": 159.8,
-      "end": 162.60000000000002,
-      "text": " Pasito a pasito, suave, suavecito",
-      "tokens": [
-        51164, 14199, 3528, 257, 1736, 3528, 11, 459, 946, 11, 459, 946, 32030,
-        51304
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 55,
-      "seek": 14380,
-      "start": 162.60000000000002,
-      "end": 165.20000000000002,
-      "text": " Nos vamos pegando poquito a poquito",
-      "tokens": [51304, 18749, 5295, 17199, 1806, 28229, 257, 28229, 51434],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 56,
-      "seek": 14380,
-      "start": 165.20000000000002,
-      "end": 168.0,
-      "text": " Y es que sabe y ese es un rompe cabeza",
-      "tokens": [
-        51434, 398, 785, 631, 12275, 288, 10167, 785, 517, 7438, 494, 34615,
-        51574
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 57,
-      "seek": 14380,
-      "start": 168.0,
-      "end": 170.60000000000002,
-      "text": " Pero pa' montarlo aqu\u00ed tengo la pieza",
-      "tokens": [
-        51574, 9377, 2502, 6, 8143, 19457, 6661, 13989, 635, 1730, 2394, 51704
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.22082660237296683,
-      "compression_ratio": 1.803921568627451,
-      "no_speech_prob": 0.014528065919876099
-    },
-    {
-      "id": 58,
-      "seek": 17060,
-      "start": 171.4,
-      "end": 173.4,
-      "text": " Despacito",
-      "tokens": [50404, 9891, 326, 3528, 50504],
-      "temperature": 0.0,
-      "avg_logprob": -0.1939826378455529,
-      "compression_ratio": 1.6440677966101696,
-      "no_speech_prob": 0.21549701690673828
-    },
-    {
-      "id": 59,
-      "seek": 17060,
-      "start": 173.4,
-      "end": 176.2,
-      "text": " Quiero respirar tu cuello despacito",
-      "tokens": [
-        50504, 2326, 12030, 18412, 289, 2604, 22656, 1913, 4887, 326, 3528,
-        50644
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.1939826378455529,
-      "compression_ratio": 1.6440677966101696,
-      "no_speech_prob": 0.21549701690673828
-    },
-    {
-      "id": 60,
-      "seek": 17060,
-      "start": 176.2,
-      "end": 178.79999999999998,
-      "text": " Deja que te diga cosas al o\u00eddo",
-      "tokens": [
-        50644, 1346, 2938, 631, 535, 2528, 64, 12218, 419, 277, 28470, 50774
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.1939826378455529,
-      "compression_ratio": 1.6440677966101696,
-      "no_speech_prob": 0.21549701690673828
-    },
-    {
-      "id": 61,
-      "seek": 17060,
-      "start": 178.79999999999998,
-      "end": 182.2,
-      "text": " Para que te acuerdes si no est\u00e1s conmigo",
-      "tokens": [
-        50774, 11107, 631, 535, 696, 5486, 14792, 1511, 572, 24389, 416, 76,
-        7483, 50944
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.1939826378455529,
-      "compression_ratio": 1.6440677966101696,
-      "no_speech_prob": 0.21549701690673828
-    },
-    {
-      "id": 62,
-      "seek": 17060,
-      "start": 182.2,
-      "end": 184.2,
-      "text": " Despacito",
-      "tokens": [50944, 9891, 326, 3528, 51044],
-      "temperature": 0.0,
-      "avg_logprob": -0.1939826378455529,
-      "compression_ratio": 1.6440677966101696,
-      "no_speech_prob": 0.21549701690673828
-    },
-    {
-      "id": 63,
-      "seek": 17060,
-      "start": 184.2,
-      "end": 187.0,
-      "text": " Quiero deshugarte a ver sos despacito",
-      "tokens": [
-        51044, 2326, 12030, 730, 71, 697, 11026, 257, 1306, 27226, 4887, 326,
-        3528, 51184
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.1939826378455529,
-      "compression_ratio": 1.6440677966101696,
-      "no_speech_prob": 0.21549701690673828
-    },
-    {
-      "id": 64,
-      "seek": 17060,
-      "start": 187.0,
-      "end": 189.6,
-      "text": " Prima las paredes de tu laberinto",
-      "tokens": [
-        51184, 2114, 4775, 2439, 280, 1642, 279, 368, 2604, 2715, 260, 17246,
-        51314
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.1939826378455529,
-      "compression_ratio": 1.6440677966101696,
-      "no_speech_prob": 0.21549701690673828
-    },
-    {
-      "id": 65,
-      "seek": 17060,
-      "start": 189.6,
-      "end": 192.2,
-      "text": " Y hacer de tu cuerpo todo un manuscrito",
-      "tokens": [
-        51314, 398, 6720, 368, 2604, 20264, 5149, 517, 21550, 66, 17492, 51444
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.1939826378455529,
-      "compression_ratio": 1.6440677966101696,
-      "no_speech_prob": 0.21549701690673828
-    },
-    {
-      "id": 66,
-      "seek": 17060,
-      "start": 194.2,
-      "end": 198.2,
-      "text": " Quiero bien bailar tu pelo, quiero hacer tu ritmo",
-      "tokens": [
-        51544, 2326, 12030, 3610, 19313, 289, 2604, 12167, 11, 16811, 6720,
-        2604, 11289, 3280, 51744
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.1939826378455529,
-      "compression_ratio": 1.6440677966101696,
-      "no_speech_prob": 0.21549701690673828
-    },
-    {
-      "id": 67,
-      "seek": 19820,
-      "start": 198.2,
-      "end": 201.0,
-      "text": " Que le ense\u00f1es a mi boca",
-      "tokens": [50364, 4493, 476, 31275, 279, 257, 2752, 34624, 50504],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 68,
-      "seek": 19820,
-      "start": 201.0,
-      "end": 203.0,
-      "text": " Tus lugares favoritos",
-      "tokens": [50504, 42026, 33105, 2294, 11343, 50604],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 69,
-      "seek": 19820,
-      "start": 203.0,
-      "end": 205.0,
-      "text": " Favorito favorito baby",
-      "tokens": [50604, 34240, 3528, 2294, 3528, 3186, 50704],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 70,
-      "seek": 19820,
-      "start": 205.0,
-      "end": 208.79999999999998,
-      "text": " D\u00e9jame sobrepasar tus olas de peligro",
-      "tokens": [
-        50704, 31153, 73, 529, 5473, 20990, 289, 20647, 2545, 296, 368, 43839,
-        340, 50894
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 71,
-      "seek": 19820,
-      "start": 208.79999999999998,
-      "end": 211.79999999999998,
-      "text": " Hasta provocar tus gritos",
-      "tokens": [50894, 45027, 24568, 289, 20647, 677, 11343, 51044],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 72,
-      "seek": 19820,
-      "start": 211.79999999999998,
-      "end": 214.39999999999998,
-      "text": " Y que olvides tu apellido",
-      "tokens": [51044, 398, 631, 43851, 1875, 2604, 44315, 285, 2925, 51174],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 73,
-      "seek": 19820,
-      "start": 214.39999999999998,
-      "end": 216.39999999999998,
-      "text": " Despacito",
-      "tokens": [51174, 9891, 326, 3528, 51274],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 74,
-      "seek": 19820,
-      "start": 216.39999999999998,
-      "end": 219.2,
-      "text": " Vamos a hacerlo en una playa en Puerto Rico",
-      "tokens": [
-        51274, 10894, 257, 32039, 465, 2002, 862, 64, 465, 21472, 22643, 51414
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 75,
-      "seek": 19820,
-      "start": 219.2,
-      "end": 221.79999999999998,
-      "text": " Hasta que las olas griten hay vendido",
-      "tokens": [
-        51414, 45027, 631, 2439, 2545, 296, 677, 6009, 4842, 10169, 2925, 51544
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 76,
-      "seek": 19820,
-      "start": 221.79999999999998,
-      "end": 225.79999999999998,
-      "text": " Para que mis sellos se quede contigo",
-      "tokens": [
-        51544, 11107, 631, 3346, 3607, 329, 369, 421, 4858, 660, 7483, 51744
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2425641718598985,
-      "compression_ratio": 1.4948453608247423,
-      "no_speech_prob": 0.0008608333300799131
-    },
-    {
-      "id": 77,
-      "seek": 22580,
-      "start": 225.8,
-      "end": 228.60000000000002,
-      "text": " Despacito apacito, suave suavecito",
-      "tokens": [
-        50364, 9891, 326, 3528, 1882, 326, 3528, 11, 459, 946, 459, 946, 32030,
-        50504
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 78,
-      "seek": 22580,
-      "start": 228.60000000000002,
-      "end": 230.60000000000002,
-      "text": " Nos vamos pegando poquito a poquito",
-      "tokens": [50504, 18749, 5295, 17199, 1806, 28229, 257, 28229, 50604],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 79,
-      "seek": 22580,
-      "start": 230.60000000000002,
-      "end": 233.60000000000002,
-      "text": " Que le ense\u00f1es a mi boca",
-      "tokens": [50604, 4493, 476, 31275, 279, 257, 2752, 34624, 50754],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 80,
-      "seek": 22580,
-      "start": 233.60000000000002,
-      "end": 235.60000000000002,
-      "text": " Tus lugares favoritos",
-      "tokens": [50754, 42026, 33105, 2294, 11343, 50854],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 81,
-      "seek": 22580,
-      "start": 235.60000000000002,
-      "end": 237.60000000000002,
-      "text": " Favorito favorito, suave suavecito",
-      "tokens": [
-        50854, 34240, 3528, 2294, 3528, 11, 459, 946, 459, 946, 32030, 50954
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 82,
-      "seek": 22580,
-      "start": 237.60000000000002,
-      "end": 239.60000000000002,
-      "text": " Despacito, suave suavecito",
-      "tokens": [50954, 9891, 326, 3528, 11, 459, 946, 459, 946, 32030, 51054],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 83,
-      "seek": 22580,
-      "start": 239.60000000000002,
-      "end": 241.60000000000002,
-      "text": " Nos vamos pegando poquito a poquito",
-      "tokens": [51054, 18749, 5295, 17199, 1806, 28229, 257, 28229, 51154],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 84,
-      "seek": 22580,
-      "start": 241.60000000000002,
-      "end": 243.60000000000002,
-      "text": " Hasta provocar tus gritos",
-      "tokens": [51154, 45027, 24568, 289, 20647, 677, 11343, 51254],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 85,
-      "seek": 22580,
-      "start": 243.60000000000002,
-      "end": 246.60000000000002,
-      "text": " Y que olvides tu apellido",
-      "tokens": [51254, 398, 631, 43851, 1875, 2604, 44315, 285, 2925, 51404],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 86,
-      "seek": 22580,
-      "start": 246.60000000000002,
-      "end": 249.60000000000002,
-      "text": " Despacito",
-      "tokens": [51404, 9891, 326, 3528, 51554],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 87,
-      "seek": 22580,
-      "start": 252.60000000000002,
-      "end": 254.60000000000002,
-      "text": " Despacito apacito, suave suavecito",
-      "tokens": [
-        51704, 9891, 326, 3528, 1882, 326, 3528, 11, 459, 946, 459, 946, 32030,
-        51804
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.2103161768082085,
-      "compression_ratio": 2.045751633986928,
-      "no_speech_prob": 0.017037004232406616
-    },
-    {
-      "id": 88,
-      "seek": 25460,
-      "start": 254.6,
-      "end": 257.6,
-      "text": " Nos vamos pegando poquito a poquito",
-      "tokens": [50364, 18749, 5295, 17199, 1806, 28229, 257, 28229, 50514],
-      "temperature": 0.0,
-      "avg_logprob": -0.1159713990760572,
-      "compression_ratio": 1.8275862068965518,
-      "no_speech_prob": 0.14035575091838837
-    },
-    {
-      "id": 89,
-      "seek": 25460,
-      "start": 262.6,
-      "end": 265.6,
-      "text": " Despacito apacito, suave suavecito",
-      "tokens": [
-        50764, 9891, 326, 3528, 1882, 326, 3528, 11, 459, 946, 459, 946, 32030,
-        50914
-      ],
-      "temperature": 0.0,
-      "avg_logprob": -0.1159713990760572,
-      "compression_ratio": 1.8275862068965518,
-      "no_speech_prob": 0.14035575091838837
-    },
-    {
-      "id": 90,
-      "seek": 25460,
-      "start": 265.6,
-      "end": 268.6,
-      "text": " Nos vamos pegando poquito a poquito",
-      "tokens": [50914, 18749, 5295, 17199, 1806, 28229, 257, 28229, 51064],
-      "temperature": 0.0,
-      "avg_logprob": -0.1159713990760572,
-      "compression_ratio": 1.8275862068965518,
-      "no_speech_prob": 0.14035575091838837
-    }
-  ],
-  "language": "Spanish"
-}
+[
+  {
+    "id": 0,
+    "seek": 0,
+    "start": 0.0,
+    "end": 1.4000000000000001,
+    "text": " \u00bfQue hay?",
+    "tokens": [50364, 3841, 24011, 4842, 30, 50434],
+    "temperature": 1.0,
+    "avg_logprob": -3.413893938064575,
+    "compression_ratio": 0.5555555555555556,
+    "no_speech_prob": 0.5644416809082031
+  },
+  {
+    "id": 1,
+    "seek": 140,
+    "start": 1.4,
+    "end": 3.4,
+    "text": " \u00a1S Bard\u043a\u0438!",
+    "tokens": [50364, 6514, 50, 26841, 2241, 0, 50464],
+    "temperature": 1.0,
+    "avg_logprob": -3.140651301333779,
+    "compression_ratio": 0.7567567567567568,
+    "no_speech_prob": 0.3720545768737793
+  },
+  {
+    "id": 2,
+    "seek": 140,
+    "start": 28.68,
+    "end": 29.48,
+    "text": " No...",
+    "tokens": [51728, 883, 485, 51768],
+    "temperature": 1.0,
+    "avg_logprob": -3.140651301333779,
+    "compression_ratio": 0.7567567567567568,
+    "no_speech_prob": 0.3720545768737793
+  },
+  {
+    "id": 3,
+    "seek": 140,
+    "start": 30.24,
+    "end": 31.36,
+    "text": " \u00a1Falzi!",
+    "tokens": [51806, 6514, 37, 304, 3992, 0, 51862],
+    "temperature": 1.0,
+    "avg_logprob": -3.140651301333779,
+    "compression_ratio": 0.7567567567567568,
+    "no_speech_prob": 0.3720545768737793
+  },
+  {
+    "id": 4,
+    "seek": 3140,
+    "start": 31.56,
+    "end": 32.199999999999996,
+    "text": " \u00a1Digua!",
+    "tokens": [50372, 6514, 35, 328, 4398, 0, 50404],
+    "temperature": 0.0,
+    "avg_logprob": -0.5223042502332089,
+    "compression_ratio": 1.1916666666666667,
+    "no_speech_prob": 0.011265081353485584
+  },
+  {
+    "id": 5,
+    "seek": 3140,
+    "start": 40.8,
+    "end": 41.4,
+    "text": " \u00a1Go!",
+    "tokens": [50834, 6514, 12104, 0, 50864],
+    "temperature": 0.0,
+    "avg_logprob": -0.5223042502332089,
+    "compression_ratio": 1.1916666666666667,
+    "no_speech_prob": 0.011265081353485584
+  },
+  {
+    "id": 6,
+    "seek": 3140,
+    "start": 41.4,
+    "end": 42.2,
+    "text": " \u00a1S\u00ed!",
+    "tokens": [50864, 6514, 30463, 0, 50904],
+    "temperature": 0.0,
+    "avg_logprob": -0.5223042502332089,
+    "compression_ratio": 1.1916666666666667,
+    "no_speech_prob": 0.011265081353485584
+  },
+  {
+    "id": 7,
+    "seek": 3140,
+    "start": 42.2,
+    "end": 46.2,
+    "text": " \u00bfSabes que ya llevo un rato mir\u00e1ndote?",
+    "tokens": [
+      50904, 3841, 47556, 279, 631, 2478, 12038, 3080, 517, 367, 2513, 3149,
+      18606, 1370, 30, 51104
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.5223042502332089,
+    "compression_ratio": 1.1916666666666667,
+    "no_speech_prob": 0.011265081353485584
+  },
+  {
+    "id": 8,
+    "seek": 3140,
+    "start": 46.8,
+    "end": 50.2,
+    "text": " \u00a1Tengo que bailar contigo hoy!",
+    "tokens": [
+      51134, 6514, 51, 30362, 631, 19313, 289, 660, 7483, 13775, 0, 51304
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.5223042502332089,
+    "compression_ratio": 1.1916666666666667,
+    "no_speech_prob": 0.011265081353485584
+  },
+  {
+    "id": 9,
+    "seek": 3140,
+    "start": 51.0,
+    "end": 51.8,
+    "text": " \u00a1Digua!",
+    "tokens": [51344, 6514, 35, 328, 4398, 0, 51384],
+    "temperature": 0.0,
+    "avg_logprob": -0.5223042502332089,
+    "compression_ratio": 1.1916666666666667,
+    "no_speech_prob": 0.011265081353485584
+  },
+  {
+    "id": 10,
+    "seek": 3140,
+    "start": 52.2,
+    "end": 57.0,
+    "text": " Dic que tu mirada ya estaba llam\u00e1ndome",
+    "tokens": [
+      51404, 413, 299, 631, 2604, 3149, 1538, 2478, 17544, 16848, 18606, 423,
+      51644
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.5223042502332089,
+    "compression_ratio": 1.1916666666666667,
+    "no_speech_prob": 0.011265081353485584
+  },
+  {
+    "id": 11,
+    "seek": 5700,
+    "start": 57.6,
+    "end": 61.2,
+    "text": " \u00a1M\u00e1estrame el camino que yo voy!",
+    "tokens": [
+      50394, 6514, 44, 842, 377, 81, 529, 806, 34124, 631, 5290, 7552, 0, 50574
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 12,
+    "seek": 5700,
+    "start": 62.0,
+    "end": 62.8,
+    "text": " \u00a1Oh!",
+    "tokens": [50614, 6514, 3756, 0, 50654],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 13,
+    "seek": 5700,
+    "start": 63.0,
+    "end": 63.8,
+    "text": " \u00a1Tur!",
+    "tokens": [50664, 6514, 51, 374, 0, 50704],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 14,
+    "seek": 5700,
+    "start": 63.8,
+    "end": 66.4,
+    "text": " T\u00fa eres el im\u00e1n y yo soy el metal",
+    "tokens": [
+      50704, 46341, 30065, 806, 566, 7200, 288, 5290, 8812, 806, 5760, 50834
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 15,
+    "seek": 5700,
+    "start": 66.4,
+    "end": 69.0,
+    "text": " Me voy acercando y voy armando el plan",
+    "tokens": [
+      50834, 1923, 7552, 696, 2869, 1806, 288, 7552, 3726, 1806, 806, 1393,
+      50964
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 16,
+    "seek": 5700,
+    "start": 69.0,
+    "end": 72.2,
+    "text": " Solo compensarlo, se acelera el pulso",
+    "tokens": [
+      50964, 26452, 11598, 19457, 11, 369, 696, 338, 1663, 806, 8331, 539, 51124
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 17,
+    "seek": 5700,
+    "start": 72.8,
+    "end": 73.8,
+    "text": " \u00a1Oh, yeah!",
+    "tokens": [51154, 6514, 3756, 11, 1338, 0, 51204],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 18,
+    "seek": 5700,
+    "start": 73.8,
+    "end": 74.4,
+    "text": " \u00a1Ya!",
+    "tokens": [51204, 6514, 26795, 0, 51234],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 19,
+    "seek": 5700,
+    "start": 74.4,
+    "end": 77.2,
+    "text": " Ya me est\u00e1 gustando m\u00e1s de lo normal",
+    "tokens": [51234, 6080, 385, 3192, 9679, 1806, 3573, 368, 450, 2710, 51374],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 20,
+    "seek": 5700,
+    "start": 77.2,
+    "end": 79.8,
+    "text": " Todo mi sentido va pidiendo m\u00e1s",
+    "tokens": [51374, 26466, 2752, 19850, 2773, 44540, 7304, 3573, 51504],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 21,
+    "seek": 5700,
+    "start": 79.8,
+    "end": 83.2,
+    "text": " Estoy que tomarlo sin ning\u00fan apuro",
+    "tokens": [51504, 49651, 631, 2916, 19457, 3343, 30394, 1882, 7052, 51674],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 22,
+    "seek": 5700,
+    "start": 83.2,
+    "end": 85.8,
+    "text": " \u00a1Despacito!",
+    "tokens": [51674, 6514, 35, 13361, 326, 3528, 0, 51804],
+    "temperature": 0.0,
+    "avg_logprob": -0.2978653617527174,
+    "compression_ratio": 1.4656862745098038,
+    "no_speech_prob": 0.3223586678504944
+  },
+  {
+    "id": 23,
+    "seek": 8580,
+    "start": 85.8,
+    "end": 88.39999999999999,
+    "text": " Quiero respirar tu cuello despacito",
+    "tokens": [
+      50364, 2326, 12030, 18412, 289, 2604, 22656, 1913, 4887, 326, 3528, 50494
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 24,
+    "seek": 8580,
+    "start": 88.39999999999999,
+    "end": 91.2,
+    "text": " Deja que te diga tosas al o\u00eddo",
+    "tokens": [
+      50494, 1346, 2938, 631, 535, 2528, 64, 281, 82, 296, 419, 277, 28470,
+      50634
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 25,
+    "seek": 8580,
+    "start": 91.2,
+    "end": 94.39999999999999,
+    "text": " Para que te acuerdes si no est\u00e1s conmigo",
+    "tokens": [
+      50634, 11107, 631, 535, 696, 5486, 14792, 1511, 572, 24389, 416, 76, 7483,
+      50794
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 26,
+    "seek": 8580,
+    "start": 94.39999999999999,
+    "end": 96.6,
+    "text": " \u00a1Despacito!",
+    "tokens": [50794, 6514, 35, 13361, 326, 3528, 0, 50904],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 27,
+    "seek": 8580,
+    "start": 96.6,
+    "end": 99.2,
+    "text": " Quiero deshundarte a besos despacito",
+    "tokens": [
+      50904, 2326, 12030, 730, 71, 997, 11026, 257, 4097, 329, 4887, 326, 3528,
+      51034
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 28,
+    "seek": 8580,
+    "start": 99.2,
+    "end": 102.0,
+    "text": " Firma en las paredes de tu laberinto",
+    "tokens": [
+      51034, 479, 347, 1696, 465, 2439, 280, 1642, 279, 368, 2604, 2715, 260,
+      17246, 51174
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 29,
+    "seek": 8580,
+    "start": 102.0,
+    "end": 104.4,
+    "text": " Y hacer de tu cuerpo tu rumba nuscrito",
+    "tokens": [
+      51174, 398, 6720, 368, 2604, 20264, 2604, 367, 49353, 297, 301, 66, 17492,
+      51294
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 30,
+    "seek": 8580,
+    "start": 104.4,
+    "end": 105.6,
+    "text": " \u00a1Sube, sube, sube!",
+    "tokens": [51294, 6514, 50, 1977, 11, 459, 650, 11, 459, 650, 0, 51354],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 31,
+    "seek": 8580,
+    "start": 105.6,
+    "end": 106.6,
+    "text": " \u00a1Sube, sube!",
+    "tokens": [51354, 6514, 50, 1977, 11, 459, 650, 0, 51404],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 32,
+    "seek": 8580,
+    "start": 106.6,
+    "end": 108.4,
+    "text": " Quiero ver bailar tu pelo",
+    "tokens": [51404, 2326, 12030, 1306, 19313, 289, 2604, 12167, 51494],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 33,
+    "seek": 8580,
+    "start": 108.4,
+    "end": 110.4,
+    "text": " Quiero hacer tu ritmo",
+    "tokens": [51494, 2326, 12030, 6720, 2604, 11289, 3280, 51594],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 34,
+    "seek": 8580,
+    "start": 110.4,
+    "end": 113.4,
+    "text": " Que \u00e9l ense\u00f1e esa mi boca",
+    "tokens": [51594, 4493, 11810, 31275, 68, 11342, 2752, 34624, 51744],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 35,
+    "seek": 8580,
+    "start": 113.4,
+    "end": 115.4,
+    "text": " Tus lugares favoritos",
+    "tokens": [51744, 42026, 33105, 2294, 11343, 51844],
+    "temperature": 0.0,
+    "avg_logprob": -0.2115365642390839,
+    "compression_ratio": 1.6167400881057268,
+    "no_speech_prob": 0.010041755624115467
+  },
+  {
+    "id": 36,
+    "seek": 11540,
+    "start": 115.4,
+    "end": 117.4,
+    "text": " Favoritos, favoritos, baby",
+    "tokens": [50364, 34240, 11343, 11, 2294, 11343, 11, 3186, 50464],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 37,
+    "seek": 11540,
+    "start": 117.4,
+    "end": 121.4,
+    "text": " D\u00e9jame sobrepasar tus olas de peligro",
+    "tokens": [
+      50464, 31153, 73, 529, 5473, 20990, 289, 20647, 2545, 296, 368, 43839,
+      340, 50664
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 38,
+    "seek": 11540,
+    "start": 121.4,
+    "end": 124.0,
+    "text": " Hasta provocar tu oscrito",
+    "tokens": [50664, 45027, 24568, 289, 2604, 3003, 66, 17492, 50794],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 39,
+    "seek": 11540,
+    "start": 124.0,
+    "end": 127.0,
+    "text": " Y que olvides tu apellido",
+    "tokens": [50794, 398, 631, 43851, 1875, 2604, 44315, 285, 2925, 50944],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 40,
+    "seek": 11540,
+    "start": 127.0,
+    "end": 128.8,
+    "text": " Si te pido un beso, vendamelo",
+    "tokens": [
+      50944, 4909, 535, 280, 2925, 517, 4097, 78, 11, 10169, 335, 10590, 51034
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 41,
+    "seek": 11540,
+    "start": 128.8,
+    "end": 130.0,
+    "text": " Yo s\u00e9 que est\u00e1s pens\u00e1ndolo",
+    "tokens": [51034, 7616, 7910, 631, 24389, 6099, 18606, 7902, 51094],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 42,
+    "seek": 11540,
+    "start": 130.0,
+    "end": 131.4,
+    "text": " Llevo tiempo intent\u00e1ndolo",
+    "tokens": [51094, 441, 306, 3080, 11772, 8446, 18606, 7902, 51164],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 43,
+    "seek": 11540,
+    "start": 131.4,
+    "end": 133.0,
+    "text": " Mami esto es bandit\u00e1ndolo",
+    "tokens": [51164, 376, 4526, 7433, 785, 4116, 270, 18606, 7902, 51244],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 44,
+    "seek": 11540,
+    "start": 133.0,
+    "end": 135.6,
+    "text": " Sabe que tu coraz\u00f3n conmigo te hace bam bam",
+    "tokens": [
+      51244, 318, 4488, 631, 2604, 34518, 416, 76, 7483, 535, 10032, 18132,
+      18132, 51374
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 45,
+    "seek": 11540,
+    "start": 135.6,
+    "end": 138.20000000000002,
+    "text": " Sabe que sabe, va hasta buscando de mi bam bam",
+    "tokens": [
+      51374, 318, 4488, 631, 12275, 11, 2773, 10764, 46804, 368, 2752, 18132,
+      18132, 51504
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 46,
+    "seek": 11540,
+    "start": 138.20000000000002,
+    "end": 141.0,
+    "text": " Me empruebas de mi boca para ver c\u00f3mo te sabes",
+    "tokens": [
+      51504, 1923, 846, 1424, 622, 16342, 368, 2752, 34624, 1690, 1306, 12826,
+      535, 37790, 51644
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 47,
+    "seek": 11540,
+    "start": 141.0,
+    "end": 143.8,
+    "text": " Quiero, quiero, quiero ver cu\u00e1nto amor a ti te cabe",
+    "tokens": [
+      51644, 2326, 12030, 11, 16811, 11, 16811, 1306, 44256, 78, 15543, 257,
+      8757, 535, 18893, 51784
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2725234031677246,
+    "compression_ratio": 1.6370656370656371,
+    "no_speech_prob": 0.0003293041663710028
+  },
+  {
+    "id": 48,
+    "seek": 14380,
+    "start": 143.8,
+    "end": 146.4,
+    "text": " Yo no tengo prisa, yo me quiero dar el viaje",
+    "tokens": [
+      50364, 7616, 572, 13989, 582, 3837, 11, 5290, 385, 16811, 4072, 806,
+      48932, 50494
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 49,
+    "seek": 14380,
+    "start": 146.4,
+    "end": 149.0,
+    "text": " Me pesea molento, despu\u00e9s salaje",
+    "tokens": [
+      50494, 1923, 280, 1130, 64, 8015, 15467, 11, 15283, 1845, 11153, 50624
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 50,
+    "seek": 14380,
+    "start": 149.0,
+    "end": 151.8,
+    "text": " Pasito a pasito, suave, suavecito",
+    "tokens": [
+      50624, 14199, 3528, 257, 1736, 3528, 11, 459, 946, 11, 459, 946, 32030,
+      50764
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 51,
+    "seek": 14380,
+    "start": 151.8,
+    "end": 154.4,
+    "text": " Nos vamos pegando poquito a poquito",
+    "tokens": [50764, 18749, 5295, 17199, 1806, 28229, 257, 28229, 50894],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 52,
+    "seek": 14380,
+    "start": 154.4,
+    "end": 157.20000000000002,
+    "text": " Cuando t\u00fa me besas con esa destreza",
+    "tokens": [
+      50894, 21907, 15056, 385, 4097, 296, 416, 11342, 2677, 265, 2394, 51034
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 53,
+    "seek": 14380,
+    "start": 157.20000000000002,
+    "end": 159.8,
+    "text": " Lo que eres malicia con delicadeza",
+    "tokens": [
+      51034, 6130, 631, 30065, 2806, 15341, 416, 29831, 762, 2394, 51164
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 54,
+    "seek": 14380,
+    "start": 159.8,
+    "end": 162.60000000000002,
+    "text": " Pasito a pasito, suave, suavecito",
+    "tokens": [
+      51164, 14199, 3528, 257, 1736, 3528, 11, 459, 946, 11, 459, 946, 32030,
+      51304
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 55,
+    "seek": 14380,
+    "start": 162.60000000000002,
+    "end": 165.20000000000002,
+    "text": " Nos vamos pegando poquito a poquito",
+    "tokens": [51304, 18749, 5295, 17199, 1806, 28229, 257, 28229, 51434],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 56,
+    "seek": 14380,
+    "start": 165.20000000000002,
+    "end": 168.0,
+    "text": " Y es que sabe y ese es un rompe cabeza",
+    "tokens": [
+      51434, 398, 785, 631, 12275, 288, 10167, 785, 517, 7438, 494, 34615, 51574
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 57,
+    "seek": 14380,
+    "start": 168.0,
+    "end": 170.60000000000002,
+    "text": " Pero pa' montarlo aqu\u00ed tengo la pieza",
+    "tokens": [
+      51574, 9377, 2502, 6, 8143, 19457, 6661, 13989, 635, 1730, 2394, 51704
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.22082660237296683,
+    "compression_ratio": 1.803921568627451,
+    "no_speech_prob": 0.014528065919876099
+  },
+  {
+    "id": 58,
+    "seek": 17060,
+    "start": 171.4,
+    "end": 173.4,
+    "text": " Despacito",
+    "tokens": [50404, 9891, 326, 3528, 50504],
+    "temperature": 0.0,
+    "avg_logprob": -0.1939826378455529,
+    "compression_ratio": 1.6440677966101696,
+    "no_speech_prob": 0.21549701690673828
+  },
+  {
+    "id": 59,
+    "seek": 17060,
+    "start": 173.4,
+    "end": 176.2,
+    "text": " Quiero respirar tu cuello despacito",
+    "tokens": [
+      50504, 2326, 12030, 18412, 289, 2604, 22656, 1913, 4887, 326, 3528, 50644
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.1939826378455529,
+    "compression_ratio": 1.6440677966101696,
+    "no_speech_prob": 0.21549701690673828
+  },
+  {
+    "id": 60,
+    "seek": 17060,
+    "start": 176.2,
+    "end": 178.79999999999998,
+    "text": " Deja que te diga cosas al o\u00eddo",
+    "tokens": [
+      50644, 1346, 2938, 631, 535, 2528, 64, 12218, 419, 277, 28470, 50774
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.1939826378455529,
+    "compression_ratio": 1.6440677966101696,
+    "no_speech_prob": 0.21549701690673828
+  },
+  {
+    "id": 61,
+    "seek": 17060,
+    "start": 178.79999999999998,
+    "end": 182.2,
+    "text": " Para que te acuerdes si no est\u00e1s conmigo",
+    "tokens": [
+      50774, 11107, 631, 535, 696, 5486, 14792, 1511, 572, 24389, 416, 76, 7483,
+      50944
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.1939826378455529,
+    "compression_ratio": 1.6440677966101696,
+    "no_speech_prob": 0.21549701690673828
+  },
+  {
+    "id": 62,
+    "seek": 17060,
+    "start": 182.2,
+    "end": 184.2,
+    "text": " Despacito",
+    "tokens": [50944, 9891, 326, 3528, 51044],
+    "temperature": 0.0,
+    "avg_logprob": -0.1939826378455529,
+    "compression_ratio": 1.6440677966101696,
+    "no_speech_prob": 0.21549701690673828
+  },
+  {
+    "id": 63,
+    "seek": 17060,
+    "start": 184.2,
+    "end": 187.0,
+    "text": " Quiero deshugarte a ver sos despacito",
+    "tokens": [
+      51044, 2326, 12030, 730, 71, 697, 11026, 257, 1306, 27226, 4887, 326,
+      3528, 51184
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.1939826378455529,
+    "compression_ratio": 1.6440677966101696,
+    "no_speech_prob": 0.21549701690673828
+  },
+  {
+    "id": 64,
+    "seek": 17060,
+    "start": 187.0,
+    "end": 189.6,
+    "text": " Prima las paredes de tu laberinto",
+    "tokens": [
+      51184, 2114, 4775, 2439, 280, 1642, 279, 368, 2604, 2715, 260, 17246,
+      51314
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.1939826378455529,
+    "compression_ratio": 1.6440677966101696,
+    "no_speech_prob": 0.21549701690673828
+  },
+  {
+    "id": 65,
+    "seek": 17060,
+    "start": 189.6,
+    "end": 192.2,
+    "text": " Y hacer de tu cuerpo todo un manuscrito",
+    "tokens": [
+      51314, 398, 6720, 368, 2604, 20264, 5149, 517, 21550, 66, 17492, 51444
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.1939826378455529,
+    "compression_ratio": 1.6440677966101696,
+    "no_speech_prob": 0.21549701690673828
+  },
+  {
+    "id": 66,
+    "seek": 17060,
+    "start": 194.2,
+    "end": 198.2,
+    "text": " Quiero bien bailar tu pelo, quiero hacer tu ritmo",
+    "tokens": [
+      51544, 2326, 12030, 3610, 19313, 289, 2604, 12167, 11, 16811, 6720, 2604,
+      11289, 3280, 51744
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.1939826378455529,
+    "compression_ratio": 1.6440677966101696,
+    "no_speech_prob": 0.21549701690673828
+  },
+  {
+    "id": 67,
+    "seek": 19820,
+    "start": 198.2,
+    "end": 201.0,
+    "text": " Que le ense\u00f1es a mi boca",
+    "tokens": [50364, 4493, 476, 31275, 279, 257, 2752, 34624, 50504],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 68,
+    "seek": 19820,
+    "start": 201.0,
+    "end": 203.0,
+    "text": " Tus lugares favoritos",
+    "tokens": [50504, 42026, 33105, 2294, 11343, 50604],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 69,
+    "seek": 19820,
+    "start": 203.0,
+    "end": 205.0,
+    "text": " Favorito favorito baby",
+    "tokens": [50604, 34240, 3528, 2294, 3528, 3186, 50704],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 70,
+    "seek": 19820,
+    "start": 205.0,
+    "end": 208.79999999999998,
+    "text": " D\u00e9jame sobrepasar tus olas de peligro",
+    "tokens": [
+      50704, 31153, 73, 529, 5473, 20990, 289, 20647, 2545, 296, 368, 43839,
+      340, 50894
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 71,
+    "seek": 19820,
+    "start": 208.79999999999998,
+    "end": 211.79999999999998,
+    "text": " Hasta provocar tus gritos",
+    "tokens": [50894, 45027, 24568, 289, 20647, 677, 11343, 51044],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 72,
+    "seek": 19820,
+    "start": 211.79999999999998,
+    "end": 214.39999999999998,
+    "text": " Y que olvides tu apellido",
+    "tokens": [51044, 398, 631, 43851, 1875, 2604, 44315, 285, 2925, 51174],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 73,
+    "seek": 19820,
+    "start": 214.39999999999998,
+    "end": 216.39999999999998,
+    "text": " Despacito",
+    "tokens": [51174, 9891, 326, 3528, 51274],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 74,
+    "seek": 19820,
+    "start": 216.39999999999998,
+    "end": 219.2,
+    "text": " Vamos a hacerlo en una playa en Puerto Rico",
+    "tokens": [
+      51274, 10894, 257, 32039, 465, 2002, 862, 64, 465, 21472, 22643, 51414
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 75,
+    "seek": 19820,
+    "start": 219.2,
+    "end": 221.79999999999998,
+    "text": " Hasta que las olas griten hay vendido",
+    "tokens": [
+      51414, 45027, 631, 2439, 2545, 296, 677, 6009, 4842, 10169, 2925, 51544
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 76,
+    "seek": 19820,
+    "start": 221.79999999999998,
+    "end": 225.79999999999998,
+    "text": " Para que mis sellos se quede contigo",
+    "tokens": [
+      51544, 11107, 631, 3346, 3607, 329, 369, 421, 4858, 660, 7483, 51744
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2425641718598985,
+    "compression_ratio": 1.4948453608247423,
+    "no_speech_prob": 0.0008608333300799131
+  },
+  {
+    "id": 77,
+    "seek": 22580,
+    "start": 225.8,
+    "end": 228.60000000000002,
+    "text": " Despacito apacito, suave suavecito",
+    "tokens": [
+      50364, 9891, 326, 3528, 1882, 326, 3528, 11, 459, 946, 459, 946, 32030,
+      50504
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 78,
+    "seek": 22580,
+    "start": 228.60000000000002,
+    "end": 230.60000000000002,
+    "text": " Nos vamos pegando poquito a poquito",
+    "tokens": [50504, 18749, 5295, 17199, 1806, 28229, 257, 28229, 50604],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 79,
+    "seek": 22580,
+    "start": 230.60000000000002,
+    "end": 233.60000000000002,
+    "text": " Que le ense\u00f1es a mi boca",
+    "tokens": [50604, 4493, 476, 31275, 279, 257, 2752, 34624, 50754],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 80,
+    "seek": 22580,
+    "start": 233.60000000000002,
+    "end": 235.60000000000002,
+    "text": " Tus lugares favoritos",
+    "tokens": [50754, 42026, 33105, 2294, 11343, 50854],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 81,
+    "seek": 22580,
+    "start": 235.60000000000002,
+    "end": 237.60000000000002,
+    "text": " Favorito favorito, suave suavecito",
+    "tokens": [
+      50854, 34240, 3528, 2294, 3528, 11, 459, 946, 459, 946, 32030, 50954
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 82,
+    "seek": 22580,
+    "start": 237.60000000000002,
+    "end": 239.60000000000002,
+    "text": " Despacito, suave suavecito",
+    "tokens": [50954, 9891, 326, 3528, 11, 459, 946, 459, 946, 32030, 51054],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 83,
+    "seek": 22580,
+    "start": 239.60000000000002,
+    "end": 241.60000000000002,
+    "text": " Nos vamos pegando poquito a poquito",
+    "tokens": [51054, 18749, 5295, 17199, 1806, 28229, 257, 28229, 51154],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 84,
+    "seek": 22580,
+    "start": 241.60000000000002,
+    "end": 243.60000000000002,
+    "text": " Hasta provocar tus gritos",
+    "tokens": [51154, 45027, 24568, 289, 20647, 677, 11343, 51254],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 85,
+    "seek": 22580,
+    "start": 243.60000000000002,
+    "end": 246.60000000000002,
+    "text": " Y que olvides tu apellido",
+    "tokens": [51254, 398, 631, 43851, 1875, 2604, 44315, 285, 2925, 51404],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 86,
+    "seek": 22580,
+    "start": 246.60000000000002,
+    "end": 249.60000000000002,
+    "text": " Despacito",
+    "tokens": [51404, 9891, 326, 3528, 51554],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 87,
+    "seek": 22580,
+    "start": 252.60000000000002,
+    "end": 254.60000000000002,
+    "text": " Despacito apacito, suave suavecito",
+    "tokens": [
+      51704, 9891, 326, 3528, 1882, 326, 3528, 11, 459, 946, 459, 946, 32030,
+      51804
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.2103161768082085,
+    "compression_ratio": 2.045751633986928,
+    "no_speech_prob": 0.017037004232406616
+  },
+  {
+    "id": 88,
+    "seek": 25460,
+    "start": 254.6,
+    "end": 257.6,
+    "text": " Nos vamos pegando poquito a poquito",
+    "tokens": [50364, 18749, 5295, 17199, 1806, 28229, 257, 28229, 50514],
+    "temperature": 0.0,
+    "avg_logprob": -0.1159713990760572,
+    "compression_ratio": 1.8275862068965518,
+    "no_speech_prob": 0.14035575091838837
+  },
+  {
+    "id": 89,
+    "seek": 25460,
+    "start": 262.6,
+    "end": 265.6,
+    "text": " Despacito apacito, suave suavecito",
+    "tokens": [
+      50764, 9891, 326, 3528, 1882, 326, 3528, 11, 459, 946, 459, 946, 32030,
+      50914
+    ],
+    "temperature": 0.0,
+    "avg_logprob": -0.1159713990760572,
+    "compression_ratio": 1.8275862068965518,
+    "no_speech_prob": 0.14035575091838837
+  },
+  {
+    "id": 90,
+    "seek": 25460,
+    "start": 265.6,
+    "end": 268.6,
+    "text": " Nos vamos pegando poquito a poquito",
+    "tokens": [50914, 18749, 5295, 17199, 1806, 28229, 257, 28229, 51064],
+    "temperature": 0.0,
+    "avg_logprob": -0.1159713990760572,
+    "compression_ratio": 1.8275862068965518,
+    "no_speech_prob": 0.14035575091838837
+  }
+]

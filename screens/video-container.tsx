@@ -5,7 +5,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Video as ExpoVideo, ResizeMode } from "expo-av";
 import { globalStyles } from "../styles/global-styles.config";
 import * as ScreenOrientation from "expo-screen-orientation";
@@ -14,51 +14,39 @@ import { useNavigation } from "@react-navigation/native";
 import Loader from "../components/loader";
 import { getMinutesSecondsFromMilliseconds } from "../utils/getMinutesSecondsFromMilliseconds";
 import VideoPlayer from "./video-player";
-import {subs} from "../assets/subtitles/despacito.js";
-import jsonsubs from "../assets/subtitles/despacito.json";
-
-// const readSrtFile = (srtText) => {
-//   const subtitles = [];
-//   const lines = srtText.split('\n').filter(line => line.trim() !== '');
-//   for (let i = 0; i < lines.length -1 ; i += 4) {
-//     const startEnd = lines[i+1].split(' --> ');
-//     // const startTime = timeToSeconds(startEnd[0]);
-//     // const endTime = timeToSeconds(startEnd[1]);
-//     const startTime = startEnd[0];
-//     const endTime = startEnd[1];
-
-//     const text = lines[i+2];
-//     subtitles.push({ startTime, endTime, text });
-//   }
-//   return subtitles;
-// };
 
 
 const VideoContainer = ({ route }) => {
-  const [subtitles, setSubtitles] = useState([]);
+  // const [subtitles, setSubtitles] = useState([]);
   const [currentSubtitle, setCurrentSubtitle] = useState('');
-  const [currentTime, setCurrentTime] = useState(0);
+  // const [currentTime, setCurrentTime] = useState(0);
 
-  const onProgress = (progressData) => {
-    setCurrentTime(progressData.currentTime);
+  // const onProgress = (progressData) => {
+  //   setCurrentTime(progressData.currentTime);
 
-    if (subtitles && subtitles.length > 0) {
-      const currentSubtitleIndex = subtitles.findIndex(
-        (subtitle) =>
-          currentTime >= subtitle.startTime && currentTime <= subtitle.endTime
-      );
+  //   if (subtitles && subtitles.length > 0) {
+  //     const currentSubtitleIndex = subtitles.findIndex(
+  //       (subtitle) =>
+  //         currentTime >= subtitle.startTime && currentTime <= subtitle.endTime
+  //     );
 
-      if (currentSubtitleIndex >= 0) {
-        setCurrentSubtitle(subtitles[currentSubtitleIndex].text);
-      } else {
-        setCurrentSubtitle('');
-      }
-    }
-  };
+  //     if (currentSubtitleIndex >= 0) {
+  //       setCurrentSubtitle(subtitles[currentSubtitleIndex].text);
+  //     } else {
+  //       setCurrentSubtitle('');
+  //     }
+  //   }
+  // };
+
+  React.useEffect(() => {
+    console.log(`current subtitle: ${currentSubtitle}`)
+  }, [currentSubtitle]);
+
+
 
   return (
     <View style={styles.container}> 
-      <VideoPlayer route={route} />
+      <VideoPlayer route={route} setCurrentSubtitle={setCurrentSubtitle}/>
       {currentSubtitle ? (
         <View style={styles.subtitleContainer}>
           <Text style={styles.subtitleText}>{currentSubtitle}</Text>

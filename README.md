@@ -9,8 +9,6 @@
 
 ![gif](https://res.cloudinary.com/adeolaadeoti/image/upload/v1671843168/ezgif.com-gif-maker_f1ap4p.gif)
 
-[video preview link](https://res.cloudinary.com/adeolaadeoti/video/upload/v1671842681/IMG_1906_gkpzoe_1_tnk2a2.mp4)
-
 These instructions should get you set up ready to work on the project 🙌
 
 ## Install (dev) 📱
@@ -29,6 +27,8 @@ These instructions should get you set up ready to work on the project 🙌
 - `yarn android`
 - `yarn ios`
 
-## Design Credit 📝
+## Credits
+
+Originally forked from here
 
 - [vijay](https://twitter.com/realvjy)

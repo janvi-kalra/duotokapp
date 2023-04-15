@@ -5,7 +5,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { Video as ExpoVideo, ResizeMode } from "expo-av";
 import { globalStyles } from "../styles/global-styles.config";
 import * as ScreenOrientation from "expo-screen-orientation";
@@ -13,8 +13,10 @@ import { Ionicons, Entypo, Foundation } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import Loader from "../components/loader";
 import { getMinutesSecondsFromMilliseconds } from "../utils/getMinutesSecondsFromMilliseconds";
+import subtitles from "../assets/subtitles/FriendsVideo.json";
 
-const VideoPlayer = ({ route }) => {
+
+const VideoPlayer = ({ route, setCurrentSubtitle}) => {
   const { src } = route.params;
   const navigation = useNavigation();
   const [status, setStatus] = React.useState<any>();
@@ -23,6 +25,7 @@ const VideoPlayer = ({ route }) => {
     status?.isPlaying
   );
   const video = React.useRef(null);
+  const [currentTime, setCurrentTime] = useState(0);
 
   async function changeScreenOrientation(type: string) {
     await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock[type]);
@@ -47,15 +50,33 @@ const VideoPlayer = ({ route }) => {
   }, [status?.isPlaying]);
 
   React.useEffect(() => {
+    const position = getMinutesSecondsFromMilliseconds(status?.positionMillis); 
+
     setVideoStatus({
       duration: getMinutesSecondsFromMilliseconds(status?.durationMillis),
-      position: getMinutesSecondsFromMilliseconds(status?.positionMillis),
+      position, 
       width: `${
         (Number(status?.positionMillis) / Number(status?.durationMillis)) * 90
       }%`,
       
     });
-    console.log(`status set with value at ${status}`)
+    setCurrentTime(status?.positionMillis / 1000);
+
+    // if (subtitles && subtitles.length > 0) {
+      const currentSubtitleIndex = subtitles.findIndex(
+        (subtitle) => {
+          if (currentTime >= subtitle.start && currentTime <= subtitle.end) {
+            return subtitle;
+          }
+        }
+      );
+
+      if (currentSubtitleIndex >= 0) {
+        setCurrentSubtitle(subtitles[currentSubtitleIndex].text);
+      } else {
+        setCurrentSubtitle('');
+      }
+    // }
   }, [status]);
 
   return (
@@ -91,9 +112,10 @@ const VideoPlayer = ({ route }) => {
           </View>
         )}
         style={styles.video}
-        source={{
-          uri: src,
-        }}
+        // source={{
+        //   uri: src,
+        // }}
+        source={require("../assets/videos/FriendsVideo.mp4")}
         resizeMode={ResizeMode.CONTAIN}
         isLooping
         shouldPlay
