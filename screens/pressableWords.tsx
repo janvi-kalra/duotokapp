@@ -1,40 +1,33 @@
 import React, { useState } from 'react';
 import { Text, View, TouchableOpacity, Modal, StyleSheet } from 'react-native';
 import { globalStyles } from "../styles/global-styles.config";
+import DictionaryModal from './dictionaryModal';
 
 
 const wordList = [
-  { word: 'Oye', definition: 'A JavaScript library for building user interfaces.' },
-  { word: 'Ya', definition: 'A framework for building native apps using React.' },
-  { word: 'No', definition: 'A dialog box or popup window that is displayed on top of the current page.' },
+  { word: 'Oye', definition: '<def here>' },
+  // { word: 'Ya', definition: 'A framework for building native apps using React.' },
+  // { word: 'No', definition: 'A dialog box or popup window that is displayed on top of the current page.' },
 ];
 
-const WordPressable = ({ word, definition, wordWithSyntax }) => {
+const WordPressable = ({ selectedWord, definition, wordWithSyntax}) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
     setIsModalVisible(true);
   };
 
-  const hideModal = () => {
-    setIsModalVisible(false);
-  };
+  // const hideModal = () => {
+  //   setIsModalVisible(false);
+  // };
 
   return (
-    <>
+    <View style={styles.container}>
       <TouchableOpacity onPress={showModal}>
         <Text style={styles.subtitleText}>{wordWithSyntax}</Text>
       </TouchableOpacity>
-      <Modal visible={isModalVisible} onRequestClose={hideModal}>
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-          <Text>{word}</Text>
-          <Text>{definition}</Text>
-          <TouchableOpacity onPress={hideModal}>
-            <Text style={{ color: 'blue' }}>Close</Text>
-          </TouchableOpacity>
-        </View>
-      </Modal>
-    </>
+      <DictionaryModal selectedWord={selectedWord} definition={definition} visible={isModalVisible} setModalVisible={setIsModalVisible}/> 
+    </View>  
   );
 };
 
@@ -89,7 +82,7 @@ const TextWithPressableWords = ({ text }) => {
         const wordWithSyntax = wordToSyntax[word];
         const foundWord = wordList.find((w) => w.word.toLowerCase() === word.toLowerCase());
         if (foundWord) {
-          return <WordPressable key={index} word={foundWord.word} definition={foundWord.definition} wordWithSyntax={wordWithSyntax} />;
+          return <WordPressable key={index} selectedWord={foundWord.word} definition={foundWord.definition} wordWithSyntax={wordWithSyntax} />;
         } else {
           return <Text style={styles.subtitleText} key={index}>{word} </Text>;
         }
@@ -119,4 +112,8 @@ const styles = StyleSheet.create({
     fontSize: 30,
     textAlign: 'center',
   },
+  // This would be how you highlight words when you want to do that. 
+  container: {
+    backgroundColor: globalStyles.colors.orange,
+  }
 });
