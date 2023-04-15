@@ -5,7 +5,7 @@ import Home from "./screens/home";
 import { useFonts } from "expo-font";
 import Curations from "./screens/curations";
 import VideoPlayer from "./screens/video-player";
-import VideoContainer from './screens/video-container';
+import VideoContainer from './screens/video-container'
 
 const Stack = createNativeStackNavigator();
 

@@ -9,6 +9,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import { globalStyles } from "../styles/global-styles.config";
 import * as ScreenOrientation from "expo-screen-orientation";
 import VideoPlayer from "./video-player";
+import TextWithPressableWords from "./pressableWords";
 
 
 const VideoContainer = ({ route }) => {
@@ -38,7 +39,8 @@ const VideoContainer = ({ route }) => {
       <VideoPlayer route={route} calculateCurrentSubtitle={calculateCurrentSubtitle}/>
       {currentSubtitle ? (
         <View style={styles.subtitleContainer}>
-          <Text style={styles.subtitleText}>{currentSubtitle}</Text>
+          <TextWithPressableWords text={currentSubtitle}/>
+          {/* <Text style={styles.subtitleText}>{currentSubtitle}</Text> */}
         </View>
       ) : null}
     </View>
@@ -74,7 +76,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 0,
     width: '100%',
-    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    // backgroundColor: 'rgba(0, 0, 0, 0.6)',
     // backgroundColor: globalStyles.colors.orange,
     padding: 10,
     height: '30%', 
