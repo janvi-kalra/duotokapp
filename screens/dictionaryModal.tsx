@@ -1,73 +1,69 @@
-import React, { useState } from 'react';
-import { Dimensions, Modal, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { globalStyles } from "../styles/global-styles.config";
-import { PinwheelIn, withDecay } from 'react-native-reanimated';
+import React, { useState, useRef } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, Animated } from 'react-native';
+import { wordList} from '../assets/dictionary/friendsDictionary.js'
 
-const deviceHeight = Dimensions.get('window').height;
-const deviceWidth = Dimensions.get('window').width;
+const DictionaryModal = ({ selectedWord }) => {
+  const [expanded, setExpanded] = useState(false);
+  const slideAnimation = useRef(new Animated.Value(0)).current;
+  const definition = wordList[selectedWord]
 
-const DictionaryModal = ({ visible, selectedWord, definition, setModalVisible }) => {
+  const handleExpand = () => {
+    Animated.timing(slideAnimation, {
+      toValue: expanded ? 0 : 1,
+      duration: 500,
+      useNativeDriver: true,
+    }).start(() => setExpanded(!expanded));
+  };
+
   return (
-    <Modal visible={visible} animationType="fade" transparent={true}>
-      <View style={styles.modalContainer}>
-        <View style={styles.header}>
-          <Text style={styles.title}>{selectedWord}</Text>
-          <TouchableOpacity onPress={() => setModalVisible(false)}>
-            <Text style={styles.closeButton}>Close</Text>
-          </TouchableOpacity>
-        </View>
-        <View style={styles.definitionContainer}>
-          <Text style={styles.definition}>{definition}</Text>
-        </View>
+    <TouchableOpacity onPress={handleExpand}>
+      <View style={styles.container}>
+        <Text style={styles.word}>{selectedWord}</Text>
+        {expanded && (
+          <Animated.View
+            style={[
+              styles.definitionContainer,
+              { transform: [{ translateY: slideAnimation.interpolate({ inputRange: [0, 1], outputRange: [0, -150] }) }] },
+            ]}
+          >
+            <Text style={styles.definition}>{definition}</Text>
+          </Animated.View>
+        )}
       </View>
-    </Modal>
+    </TouchableOpacity>
   );
 };
 
-export default DictionaryModal;
-
 const styles = StyleSheet.create({
-  modalContainer: {
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
-    borderBottomLeftRadius: 20,
-    borderBottomRightRadius: 20,
-    paddingHorizontal: 20,
-    paddingTop: 40, 
-    backgroundColor: globalStyles.colors.orange,
-    position: 'absolute', 
-    top: 0, 
-    left: 0, 
-    height: deviceHeight / 4,
-    width: deviceWidth, 
-    
-  },
-  header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+  container: {
+    backgroundColor: '#FFF',
+    height: 100,
     alignItems: 'center',
-    paddingVertical: 20,
+    justifyContent: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: '#CCC',
   },
-  title: {
-    fontSize: 24,
+  word: {
+    fontSize: 30,
     fontWeight: 'bold',
-  },
-  closeButton: {
-    fontSize: 18,
+    color: '#333',
   },
   definitionContainer: {
-    flex: 1,
+    backgroundColor: '#FFF',
+    position: 'absolute',
+    top: 100,
+    left: 0,
+    right: 0,
+    height: 150,
+    alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: globalStyles.colors.yellow,
-    height: '10%', 
+    borderBottomWidth: 1,
+    borderBottomColor: '#CCC',
   },
   definition: {
-    fontSize: 16,
-    textAlign: 'center',
-    backgroundColor: globalStyles.colors.pink, 
+    fontSize: 18,
+    color: '#333',
   },
 });
 
-
-// How to make it slide in from top. 
-// https://www.youtube.com/watch?v=ysxXKGASMkA&ab_channel=LirsTechTips
+export default DictionaryModal;

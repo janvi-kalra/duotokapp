@@ -10,12 +10,16 @@ import { globalStyles } from "../styles/global-styles.config";
 import * as ScreenOrientation from "expo-screen-orientation";
 import VideoPlayer from "./video-player";
 import TextWithPressableWords from "./pressableWords";
+import DictionaryModal from "./dictionaryModal";
 
 
 const VideoContainer = ({ route }) => {
   const [currentSubtitle, setCurrentSubtitle] = useState('');
   const [currentTime, setCurrentTime] = useState(0);
   const subtitles = require('../assets/subtitles/FriendsVideo.json')
+
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [selectedWord, setSelectedWord] = useState(false);
 
   const calculateCurrentSubtitle = useCallback((videoStatus) => {
     setCurrentTime(videoStatus?.positionMillis / 1000);
@@ -36,13 +40,20 @@ const VideoContainer = ({ route }) => {
 
   return (
     <View style={styles.container}> 
+      {/* Definition Modal */}
+      {isModalVisible && <DictionaryModal selectedWord={selectedWord}/> 
+
+      }
+
       <VideoPlayer route={route} calculateCurrentSubtitle={calculateCurrentSubtitle}/>
-      {currentSubtitle ? (
+     
+      {/* Current clickable subtitle */}
+      {currentSubtitle && 
         <View style={styles.subtitleContainer}>
-          <TextWithPressableWords text={currentSubtitle}/>
-          {/* <Text style={styles.subtitleText}>{currentSubtitle}</Text> */}
+          <TextWithPressableWords text={currentSubtitle} setIsModalVisible={setIsModalVisible} setSelectedWord={setSelectedWord}/>
         </View>
-      ) : null}
+      }
+      
     </View>
   )
 };

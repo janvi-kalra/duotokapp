@@ -27,8 +27,8 @@ enum Category {
 const forYouVideosData = [
   {
     id: 1,
-    image: require("../assets/images/friendscover.jpg"),
-    title: require("../assets/images/friendscover.jpg"),
+    image: require("../assets/images/friends.jpg"),
+    title: require("../assets/images/blank.png"),
     video:
       "https://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4",
   },
