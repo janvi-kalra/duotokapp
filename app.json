@@ -3,6 +3,8 @@
     "ios": {
       "requireFullScreen": true
     },
+    "privacy": "public",
+    "icon": "./assets/images/appicon.png",
     "plugins": [
       [
         "expo-screen-orientation",

@@ -5,7 +5,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Video as ExpoVideo, ResizeMode } from "expo-av";
 import { globalStyles } from "../styles/global-styles.config";
 import * as ScreenOrientation from "expo-screen-orientation";
@@ -18,12 +18,13 @@ import { getMinutesSecondsFromMilliseconds } from "../utils/getMinutesSecondsFro
 const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
   const { src } = route.params;
   const navigation = useNavigation();
-  const [status, setStatus] = React.useState<any>();
-  const [videoStatus, setVideoStatus] = React.useState<any>({});
-  const [showControls, setShowControls] = React.useState<boolean>(
+  const [status, setStatus] = useState<any>();
+  const [videoStatus, setVideoStatus] = useState<any>({});
+  const [showControls, setShowControls] = useState<boolean>(
     status?.isPlaying
   );
-  const video = React.useRef(null);
+  const video = useRef(null);
+  const [videoSpeed, setVideoSpeed] = useState<number>(1.0);
 
   async function changeScreenOrientation(type: string) {
     await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock[type]);
@@ -38,7 +39,7 @@ const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
   //   return () => clearTimeout(timeout);
   // }, []);
 
-  React.useEffect(() => {
+  useEffect(() => {
     status?.isPlaying && setShowControls(true);
     const timeout = setTimeout(() => {
       setShowControls(false);
@@ -47,7 +48,7 @@ const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
     return () => clearTimeout(timeout);
   }, [status?.isPlaying]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const position = getMinutesSecondsFromMilliseconds(status?.positionMillis); 
 
     setVideoStatus({
@@ -60,6 +61,18 @@ const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
     });
     calculateCurrentSubtitle(status);
   }, [status]);
+
+  const handleChangeSpeed = () => {
+    if (videoSpeed === 1) {
+      setVideoSpeed(0.9);
+    } else if (videoSpeed === 0.9) {
+      setVideoSpeed(0.8);
+    } else if (videoSpeed === 0.8) {
+      setVideoSpeed(0.7);
+    } else if (videoSpeed === 0.7) {
+      setVideoSpeed(1);
+    }
+  };
 
   return (
     <Pressable
@@ -78,6 +91,7 @@ const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
       <ExpoVideo
         ref={video}
         usePoster
+        rate={videoSpeed} 
         PosterComponent={() => (
           <View
             style={{
@@ -111,15 +125,7 @@ const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
                 ? video.current.pauseAsync()
                 : video.current.playAsync()
             }
-            style={{
-              position: "absolute",
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-              justifyContent: "center",
-              alignItems: "center",
-            }}
+            style={styles.videoTappableArea}
           >
             {status?.isPlaying ? (
               <Foundation name="pause" size={50} color="white" />
@@ -127,35 +133,23 @@ const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
               <Entypo name="controller-play" size={50} color="white" />
             )}
           </TouchableOpacity>
-          <View
-            style={{
-              flexDirection: "row",
-              width: "90%",
-              justifyContent: "space-between",
-              position: "absolute",
-              top: "80%",
-              left: "5%",
-              right: 0,
-              bottom: 0,
-              alignItems: "center",
-            }}
-          >
+
+          {/* Playback bar */}
+          <TouchableOpacity onPress={handleChangeSpeed}>
+              <View style={styles.changeSpeedContainer}>
+                <Text style={styles.changeSpeedText}> {videoSpeed}x </Text>
+              </View>
+          </TouchableOpacity>
+
+          <View style={styles.playbackArea}>
             <Text style={{ color: "white" }}>{videoStatus.position}</Text>
-            <View
-              style={{
-                width: "90%",
+            <View style={styles.playbackBar}/>
+            <View style={{
                 height: 3,
-                backgroundColor: "white",
-                opacity: 0.5,
-              }}
-            />
-            <View
-              style={{
-                height: 3,
-                backgroundColor: "white",
                 width: videoStatus.width,
                 position: "absolute",
                 left: "5%",
+                backgroundColor: "white", 
               }}
             />
             <Text style={{ color: "white" }}>{videoStatus.duration}</Text>
@@ -168,6 +162,9 @@ const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
 
 export default VideoPlayer;
 
+          {/* 'rgba(0, 0, 0, 0.5)' */}
+
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -176,6 +173,46 @@ const styles = StyleSheet.create({
     height: "100%",
     justifyContent: "center",
   },
+
+  // For playing/pausing
+  videoTappableArea: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    justifyContent: "center",
+    alignItems: "center",
+  }, 
+  playbackArea: {
+    flexDirection: "row",
+    width: "90%",
+    justifyContent: "space-between",
+    position: "absolute",
+    top: "80%",
+    left: "5%",
+    right: 0,
+    bottom: 0,
+    alignItems: "center",
+  }, 
+  playbackBar: {
+    width: "90%",
+    height: 3,
+    backgroundColor: "white",
+    opacity: 0.5,
+  }, 
+  changeSpeedContainer: {
+    // backgroundColor: 'rgba(1, 1, 1, 0.5)',
+    borderRadius: 20, 
+    width: 50, 
+    height: 50, 
+    alignItems: 'center',
+    justifyContent: 'center', 
+  },
+  changeSpeedText: {
+    color: '#fff', 
+    fontSize: 20, 
+  }, 
   video: {
     width: "100%",
     height: "90%",
