@@ -79,15 +79,6 @@ const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
       style={styles.container}
       onPress={() => setShowControls(!showControls)}
     >
-      <TouchableOpacity
-        style={styles.back}
-        onPress={() => {
-          changeScreenOrientation("PORTRAIT_UP");
-          navigation.goBack();
-        }}
-      >
-        <Ionicons name="arrow-back" size={24} color="white" />
-      </TouchableOpacity>
       <ExpoVideo
         ref={video}
         usePoster
@@ -162,18 +153,14 @@ const VideoPlayer = ({ route, calculateCurrentSubtitle}) => {
 
 export default VideoPlayer;
 
-          {/* 'rgba(0, 0, 0, 0.5)' */}
+  {/* 'rgba(0, 0, 0, 0.5)' */}
 
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: globalStyles.colors.black,
-    width: "100%",
-    height: "100%",
+    backgroundColor: globalStyles.colors.orange,
     justifyContent: "center",
   },
-
   // For playing/pausing
   videoTappableArea: {
     position: "absolute",
