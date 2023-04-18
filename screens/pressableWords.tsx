@@ -87,6 +87,6 @@ const styles = StyleSheet.create({
   },
   // This would be how you highlight words when you want to do that. 
   container: {
-    backgroundColor: globalStyles.colors.orange,
+    // backgroundColor: globalStyles.colors.orange,
   }
 });

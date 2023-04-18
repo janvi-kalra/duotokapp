@@ -41,8 +41,10 @@ const VideoContainer = ({ route }) => {
   return (
     <View style={styles.container}> 
       {/* Definition Modal */}
-      {isModalVisible && <DictionaryModal selectedWord={selectedWord}/> 
-
+      {isModalVisible &&
+      <View style={styles.dictionaryContainer}> 
+        <DictionaryModal word={selectedWord}/> 
+      </View> 
       }
 
       <VideoPlayer route={route} calculateCurrentSubtitle={calculateCurrentSubtitle}/>
@@ -63,11 +65,19 @@ export default VideoContainer;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: globalStyles.colors.white,
-    width: "100%",
-    height: "100%",
+    backgroundColor: globalStyles.colors.black,
+    // width: "100%",
+    // height: "100%",
     justifyContent: "center",
   },
+  dictionaryContainer: {
+    // position: 'absolute',
+    // bottom: 0,
+    // width: '100%',
+    padding: 20,
+    height: '20%', 
+
+  }, 
   text: {
     backgroundColor: globalStyles.colors.black,
     color: globalStyles.colors.orange,
@@ -77,18 +87,16 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "90%",
   },
-  back: {
-    position: "absolute",
-    top: 30,
-    left: 30,
-    zIndex: 1,
-  },
+  // back: {
+  //   position: "absolute",
+  //   top: 30,
+  //   left: 30,
+  //   zIndex: 1,
+  // },
   subtitleContainer: {
     position: 'absolute',
     bottom: 0,
     width: '100%',
-    // backgroundColor: 'rgba(0, 0, 0, 0.6)',
-    // backgroundColor: globalStyles.colors.orange,
     padding: 10,
     height: '30%', 
   },
